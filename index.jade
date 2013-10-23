@@ -1,6 +1,4 @@
-include ../includes/mixins
-
-!!! 5
+!!!html
 html
   head
     <meta charset="utf-8" />
@@ -9,24 +7,15 @@ html
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     title|Gonzo Theme
-    mixin css('gonzo')
+    link(type="text/css",rel="stylesheet",media="all",href="gonzo.css")
   body
     div#boundary
       aside#sidebar
-        nav#main-nav
-          ul.menu.inline
-            li
-              a(href="#") Link 1
-            li
-              a(href="#") Link 2
-            li
-              a(href="#") Link 3
         | Sidebar
       section#main
         header
           | Header
         div#body
-          h1#title|Page Title
           | Body
         footer
           | Footer

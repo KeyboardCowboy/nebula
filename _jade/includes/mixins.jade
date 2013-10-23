@@ -1,0 +1,3 @@
+mixin css(file, media)
+  - media = media || 'all'
+  link(type="text/css", rel="stylesheet", media="#{media}", href="#{file}.css")

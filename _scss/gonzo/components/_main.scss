@@ -1,0 +1,6 @@
+section#main {
+  @include box-sizing(border-box);
+  @include x-rem(margin-left, $sidebar-width);
+  @include x-rem(padding, 2);
+  max-width: 58em;
+}

@@ -1,0 +1,12 @@
+aside#sidebar {
+  @include transition(all .38s ease-in);
+  @include box-sizing(border-box);
+  @include x-rem(width, $sidebar-width);
+  @include x-rem(padding, 2);
+  @extend %carbon-fibre;
+
+  color: white;
+  position: fixed;
+  height: 100%;
+  box-shadow: .5em 0 10px 0 rgba(0,0,0,.38);
+}

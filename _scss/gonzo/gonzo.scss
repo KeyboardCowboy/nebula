@@ -1,0 +1,22 @@
+// The base partial stylesheet required for all individual page stylesheets.
+
+@import 'bourbon';
+
+// Variables
+@import 'vars';
+@import '../orion/vars/variables';
+@import '../orion/vars/typeplate';
+
+// Mixins and Functions
+@import '../orion/mixins';
+
+// Placeholder Styles
+@import '../orion/placeholders';
+
+// Base Styles
+@import '../orion/styles';
+@import 'global';
+
+// Component styles
+@import 'components/sidebar';
+@import 'components/main';
