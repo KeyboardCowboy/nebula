@@ -154,6 +154,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_jade\/includes\/mixins.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_jade\/includes\/mixins.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/includes\/mixins.html",
+      "fileType" : 512
+    },
     "\/_scss\/gonzo\/components\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -165,17 +176,6 @@
       "outputAbbreviatedPath" : "\/css\/gonzo\/components\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_jade\/includes\/mixins.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/includes\/mixins.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/includes\/mixins.html",
-      "fileType" : 512
     },
     "\/_scss\/orion\/_test\/styles.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -201,18 +201,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-interaction.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_scss\/orion\/_test\/placeholders.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -222,6 +210,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/orion\/_test\/placeholders.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-interaction.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -237,15 +237,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/styles\/_base.scss" : {
+    "\/_scss\/orion\/mixins\/_ost-typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_base.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/styles\/_base.css",
+      "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -272,15 +272,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/mixins\/_ost-typography.scss" : {
+    "\/_scss\/orion\/styles\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_base.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-typography.css",
+      "outputAbbreviatedPath" : "\/css\/orion\/styles\/_base.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -320,17 +320,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/_test\/mixins.scss" : {
-      "ignoreWasSetByUser" : 1,
+    "\/gonzo\/gonzo.css" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/_test\/mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/gonzo\/gonzo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/index.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -343,14 +340,17 @@
       "outputAbbreviatedPath" : "\/index.html",
       "fileType" : 512
     },
-    "\/gonzo\/gonzo.css" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_scss\/orion\/_test\/mixins.scss" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/orion\/_test\/mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_scss\/orion\/vars\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -412,18 +412,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/gonzo\/gonzo\/_vars.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/_vars.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/_vars.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/gonzo\/gonzo\/components\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -433,6 +421,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/gonzo\/gonzo\/components\/_main.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/gonzo\/gonzo\/_vars.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/_vars.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/_vars.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
