@@ -809,1341 +809,601 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Belleza", sans-serif;
 }
 
-@media (max-width: 1012px) {
-  h1 {
-    font-size: 58.73684px;
-    font-size: 3.67105rem;
-    margin-bottom: 0.44946rem;
-  }
-
-  h2 {
-    font-size: 46.98947px;
-    font-size: 2.93684rem;
-    margin-bottom: 0.56183rem;
-  }
-
-  h3 {
-    font-size: 35.24211px;
-    font-size: 2.20263rem;
-    margin-bottom: 0.7491rem;
-  }
-
-  h4 {
-    font-size: 23.49474px;
-    font-size: 1.46842rem;
-    margin-bottom: 1.12366rem;
-  }
-
-  h5 {
-    font-size: 20.55789px;
-    font-size: 1.28487rem;
-    margin-bottom: 1.28418rem;
-  }
-
-  h6 {
-    font-size: 17.62105px;
-    font-size: 1.10132rem;
-    margin-bottom: 1.49821rem;
-  }
-}
-@media (max-width: 63.25rem) {
-  h1 {
-    font-size: 58.73684px;
-    font-size: 3.67105rem;
-    margin-bottom: 0.44946rem;
-  }
-
-  h2 {
-    font-size: 46.98947px;
-    font-size: 2.93684rem;
-    margin-bottom: 0.56183rem;
-  }
-
-  h3 {
-    font-size: 35.24211px;
-    font-size: 2.20263rem;
-    margin-bottom: 0.7491rem;
-  }
-
-  h4 {
-    font-size: 23.49474px;
-    font-size: 1.46842rem;
-    margin-bottom: 1.12366rem;
-  }
-
-  h5 {
-    font-size: 20.55789px;
-    font-size: 1.28487rem;
-    margin-bottom: 1.28418rem;
-  }
-
-  h6 {
-    font-size: 17.62105px;
-    font-size: 1.10132rem;
-    margin-bottom: 1.49821rem;
-  }
-}
 @media (max-width: 984px) {
   h1 {
-    font-size: 57.47368px;
-    font-size: 3.59211rem;
-    margin-bottom: 0.45934rem;
+    font-size: 57.33333px;
+    font-size: 3.58333rem;
+    margin-bottom: 0.46047rem;
   }
 
   h2 {
-    font-size: 45.97895px;
-    font-size: 2.87368rem;
-    margin-bottom: 0.57418rem;
+    font-size: 45.86667px;
+    font-size: 2.86667rem;
+    margin-bottom: 0.57558rem;
   }
 
   h3 {
-    font-size: 34.48421px;
-    font-size: 2.15526rem;
-    margin-bottom: 0.76557rem;
+    font-size: 34.4px;
+    font-size: 2.15rem;
+    margin-bottom: 0.76744rem;
   }
 
   h4 {
-    font-size: 22.98947px;
-    font-size: 1.43684rem;
-    margin-bottom: 1.14835rem;
+    font-size: 22.93333px;
+    font-size: 1.43333rem;
+    margin-bottom: 1.15116rem;
   }
 
   h5 {
-    font-size: 20.11579px;
-    font-size: 1.25724rem;
-    margin-bottom: 1.3124rem;
+    font-size: 20.06667px;
+    font-size: 1.25417rem;
+    margin-bottom: 1.31561rem;
   }
 
   h6 {
-    font-size: 17.24211px;
-    font-size: 1.07763rem;
-    margin-bottom: 1.53114rem;
+    font-size: 17.2px;
+    font-size: 1.075rem;
+    margin-bottom: 1.53488rem;
   }
 }
 @media (max-width: 61.5rem) {
   h1 {
-    font-size: 57.47368px;
-    font-size: 3.59211rem;
-    margin-bottom: 0.45934rem;
+    font-size: 57.33333px;
+    font-size: 3.58333rem;
+    margin-bottom: 0.46047rem;
   }
 
   h2 {
-    font-size: 45.97895px;
-    font-size: 2.87368rem;
-    margin-bottom: 0.57418rem;
+    font-size: 45.86667px;
+    font-size: 2.86667rem;
+    margin-bottom: 0.57558rem;
   }
 
   h3 {
-    font-size: 34.48421px;
-    font-size: 2.15526rem;
-    margin-bottom: 0.76557rem;
+    font-size: 34.4px;
+    font-size: 2.15rem;
+    margin-bottom: 0.76744rem;
   }
 
   h4 {
-    font-size: 22.98947px;
-    font-size: 1.43684rem;
-    margin-bottom: 1.14835rem;
+    font-size: 22.93333px;
+    font-size: 1.43333rem;
+    margin-bottom: 1.15116rem;
   }
 
   h5 {
-    font-size: 20.11579px;
-    font-size: 1.25724rem;
-    margin-bottom: 1.3124rem;
+    font-size: 20.06667px;
+    font-size: 1.25417rem;
+    margin-bottom: 1.31561rem;
   }
 
   h6 {
-    font-size: 17.24211px;
-    font-size: 1.07763rem;
-    margin-bottom: 1.53114rem;
-  }
-}
-@media (max-width: 956px) {
-  h1 {
-    font-size: 56.21053px;
-    font-size: 3.51316rem;
-    margin-bottom: 0.46966rem;
-  }
-
-  h2 {
-    font-size: 44.96842px;
-    font-size: 2.81053rem;
-    margin-bottom: 0.58708rem;
-  }
-
-  h3 {
-    font-size: 33.72632px;
-    font-size: 2.10789rem;
-    margin-bottom: 0.78277rem;
-  }
-
-  h4 {
-    font-size: 22.48421px;
-    font-size: 1.40526rem;
-    margin-bottom: 1.17416rem;
-  }
-
-  h5 {
-    font-size: 19.67368px;
-    font-size: 1.22961rem;
-    margin-bottom: 1.34189rem;
-  }
-
-  h6 {
-    font-size: 16.86316px;
-    font-size: 1.05395rem;
-    margin-bottom: 1.56554rem;
-  }
-}
-@media (max-width: 59.75rem) {
-  h1 {
-    font-size: 56.21053px;
-    font-size: 3.51316rem;
-    margin-bottom: 0.46966rem;
-  }
-
-  h2 {
-    font-size: 44.96842px;
-    font-size: 2.81053rem;
-    margin-bottom: 0.58708rem;
-  }
-
-  h3 {
-    font-size: 33.72632px;
-    font-size: 2.10789rem;
-    margin-bottom: 0.78277rem;
-  }
-
-  h4 {
-    font-size: 22.48421px;
-    font-size: 1.40526rem;
-    margin-bottom: 1.17416rem;
-  }
-
-  h5 {
-    font-size: 19.67368px;
-    font-size: 1.22961rem;
-    margin-bottom: 1.34189rem;
-  }
-
-  h6 {
-    font-size: 16.86316px;
-    font-size: 1.05395rem;
-    margin-bottom: 1.56554rem;
+    font-size: 17.2px;
+    font-size: 1.075rem;
+    margin-bottom: 1.53488rem;
   }
 }
 @media (max-width: 928px) {
   h1 {
-    font-size: 54.94737px;
-    font-size: 3.43421rem;
-    margin-bottom: 0.48046rem;
+    font-size: 54.66667px;
+    font-size: 3.41667rem;
+    margin-bottom: 0.48293rem;
   }
 
   h2 {
-    font-size: 43.95789px;
-    font-size: 2.74737rem;
-    margin-bottom: 0.60057rem;
+    font-size: 43.73333px;
+    font-size: 2.73333rem;
+    margin-bottom: 0.60366rem;
   }
 
   h3 {
-    font-size: 32.96842px;
-    font-size: 2.06053rem;
-    margin-bottom: 0.80077rem;
+    font-size: 32.8px;
+    font-size: 2.05rem;
+    margin-bottom: 0.80488rem;
   }
 
   h4 {
-    font-size: 21.97895px;
-    font-size: 1.37368rem;
-    margin-bottom: 1.20115rem;
+    font-size: 21.86667px;
+    font-size: 1.36667rem;
+    margin-bottom: 1.20732rem;
   }
 
   h5 {
-    font-size: 19.23158px;
-    font-size: 1.20197rem;
-    margin-bottom: 1.37274rem;
+    font-size: 19.13333px;
+    font-size: 1.19583rem;
+    margin-bottom: 1.37979rem;
   }
 
   h6 {
-    font-size: 16.48421px;
-    font-size: 1.03026rem;
-    margin-bottom: 1.60153rem;
+    font-size: 16.4px;
+    font-size: 1.025rem;
+    margin-bottom: 1.60976rem;
   }
 }
 @media (max-width: 58rem) {
   h1 {
-    font-size: 54.94737px;
-    font-size: 3.43421rem;
-    margin-bottom: 0.48046rem;
+    font-size: 54.66667px;
+    font-size: 3.41667rem;
+    margin-bottom: 0.48293rem;
   }
 
   h2 {
-    font-size: 43.95789px;
-    font-size: 2.74737rem;
-    margin-bottom: 0.60057rem;
+    font-size: 43.73333px;
+    font-size: 2.73333rem;
+    margin-bottom: 0.60366rem;
   }
 
   h3 {
-    font-size: 32.96842px;
-    font-size: 2.06053rem;
-    margin-bottom: 0.80077rem;
+    font-size: 32.8px;
+    font-size: 2.05rem;
+    margin-bottom: 0.80488rem;
   }
 
   h4 {
-    font-size: 21.97895px;
-    font-size: 1.37368rem;
-    margin-bottom: 1.20115rem;
+    font-size: 21.86667px;
+    font-size: 1.36667rem;
+    margin-bottom: 1.20732rem;
   }
 
   h5 {
-    font-size: 19.23158px;
-    font-size: 1.20197rem;
-    margin-bottom: 1.37274rem;
+    font-size: 19.13333px;
+    font-size: 1.19583rem;
+    margin-bottom: 1.37979rem;
   }
 
   h6 {
-    font-size: 16.48421px;
-    font-size: 1.03026rem;
-    margin-bottom: 1.60153rem;
-  }
-}
-@media (max-width: 900px) {
-  h1 {
-    font-size: 53.68421px;
-    font-size: 3.35526rem;
-    margin-bottom: 0.49176rem;
-  }
-
-  h2 {
-    font-size: 42.94737px;
-    font-size: 2.68421rem;
-    margin-bottom: 0.61471rem;
-  }
-
-  h3 {
-    font-size: 32.21053px;
-    font-size: 2.01316rem;
-    margin-bottom: 0.81961rem;
-  }
-
-  h4 {
-    font-size: 21.47368px;
-    font-size: 1.34211rem;
-    margin-bottom: 1.22941rem;
-  }
-
-  h5 {
-    font-size: 18.78947px;
-    font-size: 1.17434rem;
-    margin-bottom: 1.40504rem;
-  }
-
-  h6 {
-    font-size: 16.10526px;
-    font-size: 1.00658rem;
-    margin-bottom: 1.63922rem;
-  }
-}
-@media (max-width: 56.25rem) {
-  h1 {
-    font-size: 53.68421px;
-    font-size: 3.35526rem;
-    margin-bottom: 0.49176rem;
-  }
-
-  h2 {
-    font-size: 42.94737px;
-    font-size: 2.68421rem;
-    margin-bottom: 0.61471rem;
-  }
-
-  h3 {
-    font-size: 32.21053px;
-    font-size: 2.01316rem;
-    margin-bottom: 0.81961rem;
-  }
-
-  h4 {
-    font-size: 21.47368px;
-    font-size: 1.34211rem;
-    margin-bottom: 1.22941rem;
-  }
-
-  h5 {
-    font-size: 18.78947px;
-    font-size: 1.17434rem;
-    margin-bottom: 1.40504rem;
-  }
-
-  h6 {
-    font-size: 16.10526px;
-    font-size: 1.00658rem;
-    margin-bottom: 1.63922rem;
+    font-size: 16.4px;
+    font-size: 1.025rem;
+    margin-bottom: 1.60976rem;
   }
 }
 @media (max-width: 872px) {
   h1 {
-    font-size: 52.42105px;
-    font-size: 3.27632rem;
-    margin-bottom: 0.50361rem;
+    font-size: 52px;
+    font-size: 3.25rem;
+    margin-bottom: 0.50769rem;
   }
 
   h2 {
-    font-size: 41.93684px;
-    font-size: 2.62105rem;
-    margin-bottom: 0.62952rem;
+    font-size: 41.6px;
+    font-size: 2.6rem;
+    margin-bottom: 0.63462rem;
   }
 
   h3 {
-    font-size: 31.45263px;
-    font-size: 1.96579rem;
-    margin-bottom: 0.83936rem;
+    font-size: 31.2px;
+    font-size: 1.95rem;
+    margin-bottom: 0.84615rem;
   }
 
   h4 {
-    font-size: 20.96842px;
-    font-size: 1.31053rem;
-    margin-bottom: 1.25904rem;
+    font-size: 20.8px;
+    font-size: 1.3rem;
+    margin-bottom: 1.26923rem;
   }
 
   h5 {
-    font-size: 18.34737px;
-    font-size: 1.14671rem;
-    margin-bottom: 1.4389rem;
+    font-size: 18.2px;
+    font-size: 1.1375rem;
+    margin-bottom: 1.45055rem;
   }
 
   h6 {
-    font-size: 15.72632px;
-    font-size: 0.98289rem;
-    margin-bottom: 1.67871rem;
+    font-size: 15.6px;
+    font-size: 0.975rem;
+    margin-bottom: 1.69231rem;
   }
 }
 @media (max-width: 54.5rem) {
   h1 {
-    font-size: 52.42105px;
-    font-size: 3.27632rem;
-    margin-bottom: 0.50361rem;
+    font-size: 52px;
+    font-size: 3.25rem;
+    margin-bottom: 0.50769rem;
   }
 
   h2 {
-    font-size: 41.93684px;
-    font-size: 2.62105rem;
-    margin-bottom: 0.62952rem;
+    font-size: 41.6px;
+    font-size: 2.6rem;
+    margin-bottom: 0.63462rem;
   }
 
   h3 {
-    font-size: 31.45263px;
-    font-size: 1.96579rem;
-    margin-bottom: 0.83936rem;
+    font-size: 31.2px;
+    font-size: 1.95rem;
+    margin-bottom: 0.84615rem;
   }
 
   h4 {
-    font-size: 20.96842px;
-    font-size: 1.31053rem;
-    margin-bottom: 1.25904rem;
+    font-size: 20.8px;
+    font-size: 1.3rem;
+    margin-bottom: 1.26923rem;
   }
 
   h5 {
-    font-size: 18.34737px;
-    font-size: 1.14671rem;
-    margin-bottom: 1.4389rem;
+    font-size: 18.2px;
+    font-size: 1.1375rem;
+    margin-bottom: 1.45055rem;
   }
 
   h6 {
-    font-size: 15.72632px;
-    font-size: 0.98289rem;
-    margin-bottom: 1.67871rem;
-  }
-}
-@media (max-width: 844px) {
-  h1 {
-    font-size: 51.15789px;
-    font-size: 3.19737rem;
-    margin-bottom: 0.51605rem;
-  }
-
-  h2 {
-    font-size: 40.92632px;
-    font-size: 2.55789rem;
-    margin-bottom: 0.64506rem;
-  }
-
-  h3 {
-    font-size: 30.69474px;
-    font-size: 1.91842rem;
-    margin-bottom: 0.86008rem;
-  }
-
-  h4 {
-    font-size: 20.46316px;
-    font-size: 1.27895rem;
-    margin-bottom: 1.29012rem;
-  }
-
-  h5 {
-    font-size: 17.90526px;
-    font-size: 1.11908rem;
-    margin-bottom: 1.47443rem;
-  }
-
-  h6 {
-    font-size: 15.34737px;
-    font-size: 0.95921rem;
-    margin-bottom: 1.72016rem;
-  }
-}
-@media (max-width: 52.75rem) {
-  h1 {
-    font-size: 51.15789px;
-    font-size: 3.19737rem;
-    margin-bottom: 0.51605rem;
-  }
-
-  h2 {
-    font-size: 40.92632px;
-    font-size: 2.55789rem;
-    margin-bottom: 0.64506rem;
-  }
-
-  h3 {
-    font-size: 30.69474px;
-    font-size: 1.91842rem;
-    margin-bottom: 0.86008rem;
-  }
-
-  h4 {
-    font-size: 20.46316px;
-    font-size: 1.27895rem;
-    margin-bottom: 1.29012rem;
-  }
-
-  h5 {
-    font-size: 17.90526px;
-    font-size: 1.11908rem;
-    margin-bottom: 1.47443rem;
-  }
-
-  h6 {
-    font-size: 15.34737px;
-    font-size: 0.95921rem;
-    margin-bottom: 1.72016rem;
+    font-size: 15.6px;
+    font-size: 0.975rem;
+    margin-bottom: 1.69231rem;
   }
 }
 @media (max-width: 816px) {
   h1 {
-    font-size: 49.89474px;
-    font-size: 3.11842rem;
-    margin-bottom: 0.52911rem;
+    font-size: 49.33333px;
+    font-size: 3.08333rem;
+    margin-bottom: 0.53514rem;
   }
 
   h2 {
-    font-size: 39.91579px;
-    font-size: 2.49474rem;
-    margin-bottom: 0.66139rem;
+    font-size: 39.46667px;
+    font-size: 2.46667rem;
+    margin-bottom: 0.66892rem;
   }
 
   h3 {
-    font-size: 29.93684px;
-    font-size: 1.87105rem;
-    margin-bottom: 0.88186rem;
+    font-size: 29.6px;
+    font-size: 1.85rem;
+    margin-bottom: 0.89189rem;
   }
 
   h4 {
-    font-size: 19.95789px;
-    font-size: 1.24737rem;
-    margin-bottom: 1.32278rem;
+    font-size: 19.73333px;
+    font-size: 1.23333rem;
+    margin-bottom: 1.33784rem;
   }
 
   h5 {
-    font-size: 17.46316px;
-    font-size: 1.09145rem;
-    margin-bottom: 1.51175rem;
+    font-size: 17.26667px;
+    font-size: 1.07917rem;
+    margin-bottom: 1.52896rem;
   }
 
   h6 {
-    font-size: 14.96842px;
-    font-size: 0.93553rem;
-    margin-bottom: 1.76371rem;
+    font-size: 14.8px;
+    font-size: 0.925rem;
+    margin-bottom: 1.78378rem;
   }
 }
 @media (max-width: 51rem) {
   h1 {
-    font-size: 49.89474px;
-    font-size: 3.11842rem;
-    margin-bottom: 0.52911rem;
+    font-size: 49.33333px;
+    font-size: 3.08333rem;
+    margin-bottom: 0.53514rem;
   }
 
   h2 {
-    font-size: 39.91579px;
-    font-size: 2.49474rem;
-    margin-bottom: 0.66139rem;
+    font-size: 39.46667px;
+    font-size: 2.46667rem;
+    margin-bottom: 0.66892rem;
   }
 
   h3 {
-    font-size: 29.93684px;
-    font-size: 1.87105rem;
-    margin-bottom: 0.88186rem;
+    font-size: 29.6px;
+    font-size: 1.85rem;
+    margin-bottom: 0.89189rem;
   }
 
   h4 {
-    font-size: 19.95789px;
-    font-size: 1.24737rem;
-    margin-bottom: 1.32278rem;
+    font-size: 19.73333px;
+    font-size: 1.23333rem;
+    margin-bottom: 1.33784rem;
   }
 
   h5 {
-    font-size: 17.46316px;
-    font-size: 1.09145rem;
-    margin-bottom: 1.51175rem;
+    font-size: 17.26667px;
+    font-size: 1.07917rem;
+    margin-bottom: 1.52896rem;
   }
 
   h6 {
-    font-size: 14.96842px;
-    font-size: 0.93553rem;
-    margin-bottom: 1.76371rem;
-  }
-}
-@media (max-width: 788px) {
-  h1 {
-    font-size: 48.63158px;
-    font-size: 3.03947rem;
-    margin-bottom: 0.54286rem;
-  }
-
-  h2 {
-    font-size: 38.90526px;
-    font-size: 2.43158rem;
-    margin-bottom: 0.67857rem;
-  }
-
-  h3 {
-    font-size: 29.17895px;
-    font-size: 1.82368rem;
-    margin-bottom: 0.90476rem;
-  }
-
-  h4 {
-    font-size: 19.45263px;
-    font-size: 1.21579rem;
-    margin-bottom: 1.35714rem;
-  }
-
-  h5 {
-    font-size: 17.02105px;
-    font-size: 1.06382rem;
-    margin-bottom: 1.55102rem;
-  }
-
-  h6 {
-    font-size: 14.58947px;
-    font-size: 0.91184rem;
-    margin-bottom: 1.80952rem;
-  }
-}
-@media (max-width: 49.25rem) {
-  h1 {
-    font-size: 48.63158px;
-    font-size: 3.03947rem;
-    margin-bottom: 0.54286rem;
-  }
-
-  h2 {
-    font-size: 38.90526px;
-    font-size: 2.43158rem;
-    margin-bottom: 0.67857rem;
-  }
-
-  h3 {
-    font-size: 29.17895px;
-    font-size: 1.82368rem;
-    margin-bottom: 0.90476rem;
-  }
-
-  h4 {
-    font-size: 19.45263px;
-    font-size: 1.21579rem;
-    margin-bottom: 1.35714rem;
-  }
-
-  h5 {
-    font-size: 17.02105px;
-    font-size: 1.06382rem;
-    margin-bottom: 1.55102rem;
-  }
-
-  h6 {
-    font-size: 14.58947px;
-    font-size: 0.91184rem;
-    margin-bottom: 1.80952rem;
+    font-size: 14.8px;
+    font-size: 0.925rem;
+    margin-bottom: 1.78378rem;
   }
 }
 @media (max-width: 760px) {
   h1 {
-    font-size: 47.36842px;
-    font-size: 2.96053rem;
-    margin-bottom: 0.55733rem;
+    font-size: 46.66667px;
+    font-size: 2.91667rem;
+    margin-bottom: 0.56571rem;
   }
 
   h2 {
-    font-size: 37.89474px;
-    font-size: 2.36842rem;
-    margin-bottom: 0.69667rem;
+    font-size: 37.33333px;
+    font-size: 2.33333rem;
+    margin-bottom: 0.70714rem;
   }
 
   h3 {
-    font-size: 28.42105px;
-    font-size: 1.77632rem;
-    margin-bottom: 0.92889rem;
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin-bottom: 0.94286rem;
   }
 
   h4 {
-    font-size: 18.94737px;
-    font-size: 1.18421rem;
-    margin-bottom: 1.39333rem;
+    font-size: 18.66667px;
+    font-size: 1.16667rem;
+    margin-bottom: 1.41429rem;
   }
 
   h5 {
-    font-size: 16.57895px;
-    font-size: 1.03618rem;
-    margin-bottom: 1.59238rem;
+    font-size: 16.33333px;
+    font-size: 1.02083rem;
+    margin-bottom: 1.61633rem;
   }
 
   h6 {
-    font-size: 14.21053px;
-    font-size: 0.88816rem;
-    margin-bottom: 1.85778rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 1.88571rem;
   }
 }
 @media (max-width: 47.5rem) {
   h1 {
-    font-size: 47.36842px;
-    font-size: 2.96053rem;
-    margin-bottom: 0.55733rem;
+    font-size: 46.66667px;
+    font-size: 2.91667rem;
+    margin-bottom: 0.56571rem;
   }
 
   h2 {
-    font-size: 37.89474px;
-    font-size: 2.36842rem;
-    margin-bottom: 0.69667rem;
+    font-size: 37.33333px;
+    font-size: 2.33333rem;
+    margin-bottom: 0.70714rem;
   }
 
   h3 {
-    font-size: 28.42105px;
-    font-size: 1.77632rem;
-    margin-bottom: 0.92889rem;
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin-bottom: 0.94286rem;
   }
 
   h4 {
-    font-size: 18.94737px;
-    font-size: 1.18421rem;
-    margin-bottom: 1.39333rem;
+    font-size: 18.66667px;
+    font-size: 1.16667rem;
+    margin-bottom: 1.41429rem;
   }
 
   h5 {
-    font-size: 16.57895px;
-    font-size: 1.03618rem;
-    margin-bottom: 1.59238rem;
+    font-size: 16.33333px;
+    font-size: 1.02083rem;
+    margin-bottom: 1.61633rem;
   }
 
   h6 {
-    font-size: 14.21053px;
-    font-size: 0.88816rem;
-    margin-bottom: 1.85778rem;
-  }
-}
-@media (max-width: 732px) {
-  h1 {
-    font-size: 46.10526px;
-    font-size: 2.88158rem;
-    margin-bottom: 0.5726rem;
-  }
-
-  h2 {
-    font-size: 36.88421px;
-    font-size: 2.30526rem;
-    margin-bottom: 0.71575rem;
-  }
-
-  h3 {
-    font-size: 27.66316px;
-    font-size: 1.72895rem;
-    margin-bottom: 0.95434rem;
-  }
-
-  h4 {
-    font-size: 18.44211px;
-    font-size: 1.15263rem;
-    margin-bottom: 1.43151rem;
-  }
-
-  h5 {
-    font-size: 16.13684px;
-    font-size: 1.00855rem;
-    margin-bottom: 1.63601rem;
-  }
-
-  h6 {
-    font-size: 13.83158px;
-    font-size: 0.86447rem;
-    margin-bottom: 1.90868rem;
-  }
-}
-@media (max-width: 45.75rem) {
-  h1 {
-    font-size: 46.10526px;
-    font-size: 2.88158rem;
-    margin-bottom: 0.5726rem;
-  }
-
-  h2 {
-    font-size: 36.88421px;
-    font-size: 2.30526rem;
-    margin-bottom: 0.71575rem;
-  }
-
-  h3 {
-    font-size: 27.66316px;
-    font-size: 1.72895rem;
-    margin-bottom: 0.95434rem;
-  }
-
-  h4 {
-    font-size: 18.44211px;
-    font-size: 1.15263rem;
-    margin-bottom: 1.43151rem;
-  }
-
-  h5 {
-    font-size: 16.13684px;
-    font-size: 1.00855rem;
-    margin-bottom: 1.63601rem;
-  }
-
-  h6 {
-    font-size: 13.83158px;
-    font-size: 0.86447rem;
-    margin-bottom: 1.90868rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 1.88571rem;
   }
 }
 @media (max-width: 704px) {
   h1 {
-    font-size: 44.84211px;
-    font-size: 2.80263rem;
-    margin-bottom: 0.58873rem;
+    font-size: 44px;
+    font-size: 2.75rem;
+    margin-bottom: 0.6rem;
   }
 
   h2 {
-    font-size: 35.87368px;
-    font-size: 2.24211rem;
-    margin-bottom: 0.73592rem;
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin-bottom: 0.75rem;
   }
 
   h3 {
-    font-size: 26.90526px;
-    font-size: 1.68158rem;
-    margin-bottom: 0.98122rem;
+    font-size: 26.4px;
+    font-size: 1.65rem;
+    margin-bottom: 1.0rem;
   }
 
   h4 {
-    font-size: 17.93684px;
-    font-size: 1.12105rem;
-    margin-bottom: 1.47183rem;
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
 
   h5 {
-    font-size: 15.69474px;
-    font-size: 0.98092rem;
-    margin-bottom: 1.68209rem;
+    font-size: 15.4px;
+    font-size: 0.9625rem;
+    margin-bottom: 1.71429rem;
   }
 
   h6 {
-    font-size: 13.45263px;
-    font-size: 0.84079rem;
-    margin-bottom: 1.96244rem;
+    font-size: 13.2px;
+    font-size: 0.825rem;
+    margin-bottom: 2.0rem;
   }
 }
 @media (max-width: 44rem) {
   h1 {
-    font-size: 44.84211px;
-    font-size: 2.80263rem;
-    margin-bottom: 0.58873rem;
+    font-size: 44px;
+    font-size: 2.75rem;
+    margin-bottom: 0.6rem;
   }
 
   h2 {
-    font-size: 35.87368px;
-    font-size: 2.24211rem;
-    margin-bottom: 0.73592rem;
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin-bottom: 0.75rem;
   }
 
   h3 {
-    font-size: 26.90526px;
-    font-size: 1.68158rem;
-    margin-bottom: 0.98122rem;
+    font-size: 26.4px;
+    font-size: 1.65rem;
+    margin-bottom: 1.0rem;
   }
 
   h4 {
-    font-size: 17.93684px;
-    font-size: 1.12105rem;
-    margin-bottom: 1.47183rem;
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
 
   h5 {
-    font-size: 15.69474px;
-    font-size: 0.98092rem;
-    margin-bottom: 1.68209rem;
+    font-size: 15.4px;
+    font-size: 0.9625rem;
+    margin-bottom: 1.71429rem;
   }
 
   h6 {
-    font-size: 13.45263px;
-    font-size: 0.84079rem;
-    margin-bottom: 1.96244rem;
-  }
-}
-@media (max-width: 676px) {
-  h1 {
-    font-size: 43.57895px;
-    font-size: 2.72368rem;
-    margin-bottom: 0.6058rem;
-  }
-
-  h2 {
-    font-size: 34.86316px;
-    font-size: 2.17895rem;
-    margin-bottom: 0.75725rem;
-  }
-
-  h3 {
-    font-size: 26.14737px;
-    font-size: 1.63421rem;
-    margin-bottom: 1.00966rem;
-  }
-
-  h4 {
-    font-size: 17.43158px;
-    font-size: 1.08947rem;
-    margin-bottom: 1.51449rem;
-  }
-
-  h5 {
-    font-size: 15.25263px;
-    font-size: 0.95329rem;
-    margin-bottom: 1.73085rem;
-  }
-
-  h6 {
-    font-size: 13.07368px;
-    font-size: 0.81711rem;
-    margin-bottom: 2.01932rem;
-  }
-}
-@media (max-width: 42.25rem) {
-  h1 {
-    font-size: 43.57895px;
-    font-size: 2.72368rem;
-    margin-bottom: 0.6058rem;
-  }
-
-  h2 {
-    font-size: 34.86316px;
-    font-size: 2.17895rem;
-    margin-bottom: 0.75725rem;
-  }
-
-  h3 {
-    font-size: 26.14737px;
-    font-size: 1.63421rem;
-    margin-bottom: 1.00966rem;
-  }
-
-  h4 {
-    font-size: 17.43158px;
-    font-size: 1.08947rem;
-    margin-bottom: 1.51449rem;
-  }
-
-  h5 {
-    font-size: 15.25263px;
-    font-size: 0.95329rem;
-    margin-bottom: 1.73085rem;
-  }
-
-  h6 {
-    font-size: 13.07368px;
-    font-size: 0.81711rem;
-    margin-bottom: 2.01932rem;
+    font-size: 13.2px;
+    font-size: 0.825rem;
+    margin-bottom: 2.0rem;
   }
 }
 @media (max-width: 648px) {
   h1 {
-    font-size: 42.31579px;
-    font-size: 2.64474rem;
-    margin-bottom: 0.62388rem;
+    font-size: 41.33333px;
+    font-size: 2.58333rem;
+    margin-bottom: 0.63871rem;
   }
 
   h2 {
-    font-size: 33.85263px;
-    font-size: 2.11579rem;
-    margin-bottom: 0.77985rem;
+    font-size: 33.06667px;
+    font-size: 2.06667rem;
+    margin-bottom: 0.79839rem;
   }
 
   h3 {
-    font-size: 25.38947px;
-    font-size: 1.58684rem;
-    margin-bottom: 1.0398rem;
+    font-size: 24.8px;
+    font-size: 1.55rem;
+    margin-bottom: 1.06452rem;
   }
 
   h4 {
-    font-size: 16.92632px;
-    font-size: 1.05789rem;
-    margin-bottom: 1.5597rem;
+    font-size: 16.53333px;
+    font-size: 1.03333rem;
+    margin-bottom: 1.59677rem;
   }
 
   h5 {
-    font-size: 14.81053px;
-    font-size: 0.92566rem;
-    margin-bottom: 1.78252rem;
+    font-size: 14.46667px;
+    font-size: 0.90417rem;
+    margin-bottom: 1.82488rem;
   }
 
   h6 {
-    font-size: 12.69474px;
-    font-size: 0.79342rem;
-    margin-bottom: 2.0796rem;
+    font-size: 12.4px;
+    font-size: 0.775rem;
+    margin-bottom: 2.12903rem;
   }
 }
 @media (max-width: 40.5rem) {
   h1 {
-    font-size: 42.31579px;
-    font-size: 2.64474rem;
-    margin-bottom: 0.62388rem;
+    font-size: 41.33333px;
+    font-size: 2.58333rem;
+    margin-bottom: 0.63871rem;
   }
 
   h2 {
-    font-size: 33.85263px;
-    font-size: 2.11579rem;
-    margin-bottom: 0.77985rem;
+    font-size: 33.06667px;
+    font-size: 2.06667rem;
+    margin-bottom: 0.79839rem;
   }
 
   h3 {
-    font-size: 25.38947px;
-    font-size: 1.58684rem;
-    margin-bottom: 1.0398rem;
+    font-size: 24.8px;
+    font-size: 1.55rem;
+    margin-bottom: 1.06452rem;
   }
 
   h4 {
-    font-size: 16.92632px;
-    font-size: 1.05789rem;
-    margin-bottom: 1.5597rem;
+    font-size: 16.53333px;
+    font-size: 1.03333rem;
+    margin-bottom: 1.59677rem;
   }
 
   h5 {
-    font-size: 14.81053px;
-    font-size: 0.92566rem;
-    margin-bottom: 1.78252rem;
+    font-size: 14.46667px;
+    font-size: 0.90417rem;
+    margin-bottom: 1.82488rem;
   }
 
   h6 {
-    font-size: 12.69474px;
-    font-size: 0.79342rem;
-    margin-bottom: 2.0796rem;
-  }
-}
-@media (max-width: 620px) {
-  h1 {
-    font-size: 41.05263px;
-    font-size: 2.56579rem;
-    margin-bottom: 0.64308rem;
-  }
-
-  h2 {
-    font-size: 32.84211px;
-    font-size: 2.05263rem;
-    margin-bottom: 0.80385rem;
-  }
-
-  h3 {
-    font-size: 24.63158px;
-    font-size: 1.53947rem;
-    margin-bottom: 1.07179rem;
-  }
-
-  h4 {
-    font-size: 16.42105px;
-    font-size: 1.02632rem;
-    margin-bottom: 1.60769rem;
-  }
-
-  h5 {
-    font-size: 14.36842px;
-    font-size: 0.89803rem;
-    margin-bottom: 1.83736rem;
-  }
-
-  h6 {
-    font-size: 12.31579px;
-    font-size: 0.76974rem;
-    margin-bottom: 2.14359rem;
-  }
-}
-@media (max-width: 38.75rem) {
-  h1 {
-    font-size: 41.05263px;
-    font-size: 2.56579rem;
-    margin-bottom: 0.64308rem;
-  }
-
-  h2 {
-    font-size: 32.84211px;
-    font-size: 2.05263rem;
-    margin-bottom: 0.80385rem;
-  }
-
-  h3 {
-    font-size: 24.63158px;
-    font-size: 1.53947rem;
-    margin-bottom: 1.07179rem;
-  }
-
-  h4 {
-    font-size: 16.42105px;
-    font-size: 1.02632rem;
-    margin-bottom: 1.60769rem;
-  }
-
-  h5 {
-    font-size: 14.36842px;
-    font-size: 0.89803rem;
-    margin-bottom: 1.83736rem;
-  }
-
-  h6 {
-    font-size: 12.31579px;
-    font-size: 0.76974rem;
-    margin-bottom: 2.14359rem;
+    font-size: 12.4px;
+    font-size: 0.775rem;
+    margin-bottom: 2.12903rem;
   }
 }
 @media (max-width: 592px) {
   h1 {
-    font-size: 39.78947px;
-    font-size: 2.48684rem;
-    margin-bottom: 0.66349rem;
+    font-size: 38.66667px;
+    font-size: 2.41667rem;
+    margin-bottom: 0.68276rem;
   }
 
   h2 {
-    font-size: 31.83158px;
-    font-size: 1.98947rem;
-    margin-bottom: 0.82937rem;
+    font-size: 30.93333px;
+    font-size: 1.93333rem;
+    margin-bottom: 0.85345rem;
   }
 
   h3 {
-    font-size: 23.87368px;
-    font-size: 1.49211rem;
-    margin-bottom: 1.10582rem;
+    font-size: 23.2px;
+    font-size: 1.45rem;
+    margin-bottom: 1.13793rem;
   }
 
   h4 {
-    font-size: 15.91579px;
-    font-size: 0.99474rem;
-    margin-bottom: 1.65873rem;
+    font-size: 15.46667px;
+    font-size: 0.96667rem;
+    margin-bottom: 1.7069rem;
   }
 
   h5 {
-    font-size: 13.92632px;
-    font-size: 0.87039rem;
-    margin-bottom: 1.89569rem;
+    font-size: 13.53333px;
+    font-size: 0.84583rem;
+    margin-bottom: 1.95074rem;
   }
 
   h6 {
-    font-size: 11.93684px;
-    font-size: 0.74605rem;
-    margin-bottom: 2.21164rem;
+    font-size: 11.6px;
+    font-size: 0.725rem;
+    margin-bottom: 2.27586rem;
   }
 }
 @media (max-width: 37rem) {
   h1 {
-    font-size: 39.78947px;
-    font-size: 2.48684rem;
-    margin-bottom: 0.66349rem;
+    font-size: 38.66667px;
+    font-size: 2.41667rem;
+    margin-bottom: 0.68276rem;
   }
 
   h2 {
-    font-size: 31.83158px;
-    font-size: 1.98947rem;
-    margin-bottom: 0.82937rem;
+    font-size: 30.93333px;
+    font-size: 1.93333rem;
+    margin-bottom: 0.85345rem;
   }
 
   h3 {
-    font-size: 23.87368px;
-    font-size: 1.49211rem;
-    margin-bottom: 1.10582rem;
+    font-size: 23.2px;
+    font-size: 1.45rem;
+    margin-bottom: 1.13793rem;
   }
 
   h4 {
-    font-size: 15.91579px;
-    font-size: 0.99474rem;
-    margin-bottom: 1.65873rem;
+    font-size: 15.46667px;
+    font-size: 0.96667rem;
+    margin-bottom: 1.7069rem;
   }
 
   h5 {
-    font-size: 13.92632px;
-    font-size: 0.87039rem;
-    margin-bottom: 1.89569rem;
+    font-size: 13.53333px;
+    font-size: 0.84583rem;
+    margin-bottom: 1.95074rem;
   }
 
   h6 {
-    font-size: 11.93684px;
-    font-size: 0.74605rem;
-    margin-bottom: 2.21164rem;
-  }
-}
-@media (max-width: 564px) {
-  h1 {
-    font-size: 38.52632px;
-    font-size: 2.40789rem;
-    margin-bottom: 0.68525rem;
-  }
-
-  h2 {
-    font-size: 30.82105px;
-    font-size: 1.92632rem;
-    margin-bottom: 0.85656rem;
-  }
-
-  h3 {
-    font-size: 23.11579px;
-    font-size: 1.44474rem;
-    margin-bottom: 1.14208rem;
-  }
-
-  h4 {
-    font-size: 15.41053px;
-    font-size: 0.96316rem;
-    margin-bottom: 1.71311rem;
-  }
-
-  h5 {
-    font-size: 13.48421px;
-    font-size: 0.84276rem;
-    margin-bottom: 1.95785rem;
-  }
-
-  h6 {
-    font-size: 11.55789px;
-    font-size: 0.72237rem;
-    margin-bottom: 2.28415rem;
-  }
-}
-@media (max-width: 35.25rem) {
-  h1 {
-    font-size: 38.52632px;
-    font-size: 2.40789rem;
-    margin-bottom: 0.68525rem;
-  }
-
-  h2 {
-    font-size: 30.82105px;
-    font-size: 1.92632rem;
-    margin-bottom: 0.85656rem;
-  }
-
-  h3 {
-    font-size: 23.11579px;
-    font-size: 1.44474rem;
-    margin-bottom: 1.14208rem;
-  }
-
-  h4 {
-    font-size: 15.41053px;
-    font-size: 0.96316rem;
-    margin-bottom: 1.71311rem;
-  }
-
-  h5 {
-    font-size: 13.48421px;
-    font-size: 0.84276rem;
-    margin-bottom: 1.95785rem;
-  }
-
-  h6 {
-    font-size: 11.55789px;
-    font-size: 0.72237rem;
-    margin-bottom: 2.28415rem;
+    font-size: 11.6px;
+    font-size: 0.725rem;
+    margin-bottom: 2.27586rem;
   }
 }
 @media (max-width: 536px) {
   h1 {
-    font-size: 37.26316px;
-    font-size: 2.32895rem;
-    margin-bottom: 0.70847rem;
-  }
-
-  h2 {
-    font-size: 29.81053px;
-    font-size: 1.86316rem;
-    margin-bottom: 0.88559rem;
-  }
-
-  h3 {
-    font-size: 22.35789px;
-    font-size: 1.39737rem;
-    margin-bottom: 1.18079rem;
-  }
-
-  h4 {
-    font-size: 14.90526px;
-    font-size: 0.93158rem;
-    margin-bottom: 1.77119rem;
-  }
-
-  h5 {
-    font-size: 13.04211px;
-    font-size: 0.81513rem;
-    margin-bottom: 2.02421rem;
-  }
-
-  h6 {
-    font-size: 11.17895px;
-    font-size: 0.69868rem;
-    margin-bottom: 2.36158rem;
-  }
-}
-@media (max-width: 33.5rem) {
-  h1 {
-    font-size: 37.26316px;
-    font-size: 2.32895rem;
-    margin-bottom: 0.70847rem;
-  }
-
-  h2 {
-    font-size: 29.81053px;
-    font-size: 1.86316rem;
-    margin-bottom: 0.88559rem;
-  }
-
-  h3 {
-    font-size: 22.35789px;
-    font-size: 1.39737rem;
-    margin-bottom: 1.18079rem;
-  }
-
-  h4 {
-    font-size: 14.90526px;
-    font-size: 0.93158rem;
-    margin-bottom: 1.77119rem;
-  }
-
-  h5 {
-    font-size: 13.04211px;
-    font-size: 0.81513rem;
-    margin-bottom: 2.02421rem;
-  }
-
-  h6 {
-    font-size: 11.17895px;
-    font-size: 0.69868rem;
-    margin-bottom: 2.36158rem;
-  }
-}
-@media (max-width: 508px) {
-  h1 {
-    font-size: 36.0px;
+    font-size: 36px;
     font-size: 2.25rem;
     margin-bottom: 0.73333rem;
   }
@@ -2178,9 +1438,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 2.44444rem;
   }
 }
-@media (max-width: 31.75rem) {
+@media (max-width: 33.5rem) {
   h1 {
-    font-size: 36.0px;
+    font-size: 36px;
     font-size: 2.25rem;
     margin-bottom: 0.73333rem;
   }
@@ -2245,6 +1505,18 @@ aside#sidebar a:hover {
 aside#sidebar ul.menu {
   padding-left: 0;
 }
+@media (max-width: 800px) {
+  aside#sidebar {
+    padding: 16px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 50rem) {
+  aside#sidebar {
+    padding: 16px;
+    padding: 1rem;
+  }
+}
 
 @media (max-width: 1040px) {
   aside#sidebar {
@@ -2289,6 +1561,18 @@ section#main article .body {
 }
 section#main article .body p + p {
   margin-top: -1em;
+}
+@media (max-width: 800px) {
+  section#main {
+    padding: 16px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 50rem) {
+  section#main {
+    padding: 16px;
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 1040px) {

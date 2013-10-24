@@ -25,6 +25,10 @@ aside#sidebar {
   ul.menu {
     padding-left: 0;
   }
+
+  @include rem-breakpoint(max-width, 50) {
+    @include x-rem(padding, $sidebar-padding / 2);
+  }
 }
 
 // Breakpoints

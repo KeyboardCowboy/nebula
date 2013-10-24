@@ -34,6 +34,10 @@ section#main {
       }
     }
   }
+
+  @include rem-breakpoint(max-width, 50) {
+    @include x-rem(padding, $main-padding / 2);
+  }
 }
 
 // Breakpoints
