@@ -2,13 +2,6 @@
   text-shadow: $h $v $b $color;
   filter: dropshadow(color=$color, offx=$h, offy=$v);
 }*/
-aside#sidebar {
-  background: -webkit-radial-gradient( black 15%, transparent 16%) 0 0, -webkit-radial-gradient( black 15%, transparent 16%) 8px 8px, -webkit-radial-gradient( rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, -webkit-radial-gradient( rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
-  background: radial-gradient(   black 15%, transparent 16%) 0 0, radial-gradient(   black 15%, transparent 16%) 8px 8px, radial-gradient(   rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(   rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
-  background-color: #282828;
-  background-size: 16px 16px;
-}
-
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -438,7 +431,7 @@ pre code {
  *
  */
 html {
-  font: normal 112.5%/1.65 serif;
+  font: normal 125%/1.65 serif;
 }
 
 body {
@@ -462,56 +455,56 @@ h1, h2, h3, h4, h5, h6 {
 
 .tera {
   font-size: 117px;
-  font-size: 6.5rem;
-  margin-bottom: 0.25385rem;
+  font-size: 7.3125rem;
+  margin-bottom: 0.22564rem;
 }
 
 .giga {
   font-size: 90px;
-  font-size: 5rem;
-  margin-bottom: 0.33rem;
+  font-size: 5.625rem;
+  margin-bottom: 0.29333rem;
 }
 
 .mega {
   font-size: 72px;
-  font-size: 4rem;
-  margin-bottom: 0.4125rem;
+  font-size: 4.5rem;
+  margin-bottom: 0.36667rem;
 }
 
 .alpha, h1 {
   font-size: 60px;
-  font-size: 3.33333rem;
-  margin-bottom: 0.495rem;
+  font-size: 3.75rem;
+  margin-bottom: 0.44rem;
 }
 
 .beta, h2 {
   font-size: 48px;
-  font-size: 2.66667rem;
-  margin-bottom: 0.61875rem;
+  font-size: 3rem;
+  margin-bottom: 0.55rem;
 }
 
 .gamma, h3 {
   font-size: 36px;
-  font-size: 2rem;
-  margin-bottom: 0.825rem;
+  font-size: 2.25rem;
+  margin-bottom: 0.73333rem;
 }
 
 .delta, h4 {
   font-size: 24px;
-  font-size: 1.33333rem;
-  margin-bottom: 1.2375rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .epsilon, h5 {
   font-size: 21px;
-  font-size: 1.16667rem;
-  margin-bottom: 1.41429rem;
+  font-size: 1.3125rem;
+  margin-bottom: 1.25714rem;
 }
 
 .zeta, h6 {
   font-size: 18px;
-  font-size: 1rem;
-  margin-bottom: 1.65rem;
+  font-size: 1.125rem;
+  margin-bottom: 1.46667rem;
 }
 
 p {
@@ -580,7 +573,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222222;
+  color: #255e8d;
 }
 
 p + .drop-cap {
@@ -588,16 +581,16 @@ p + .drop-cap {
   margin-top: 0;
 }
 
-.drop-cap:first-letter {
+.drop-cap:first-letter, section#main article .body h1 + p:first-letter {
   float: left;
-  margin: inherit;
-  padding: inherit;
+  margin: 0;
+  padding: 0 0.25em 0 0;
   font-size: 4em;
   font-family: inherit;
   line-height: 1;
   text-indent: 0;
   background: transparent;
-  color: inherit;
+  color: #255e8d;
 }
 
 /**
@@ -741,6 +734,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+  outline: 0;
+}
+
 .icon-left {
   margin-right: 1em;
 }
@@ -774,6 +771,19 @@ ul li {
   list-style: disc outside none;
 }
 
+ul.no-bullet li {
+  list-style-type: none;
+}
+ul.disc li {
+  list-style-type: disc;
+}
+ul.circle li {
+  list-style-type: circle;
+}
+ul.square li {
+  list-style-type: square;
+}
+
 ul.menu, ol.menu {
   margin-left: 0;
 }
@@ -788,32 +798,1506 @@ html {
 
 body {
   height: 100%;
+  font-family: "Rokkitt", serif;
+}
+
+#page {
   background: transparent url("noisy.png") 0 0 repeat;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Belleza", sans-serif;
+}
+
+@media (max-width: 1012px) {
+  h1 {
+    font-size: 58.73684px;
+    font-size: 3.67105rem;
+    margin-bottom: 0.44946rem;
+  }
+
+  h2 {
+    font-size: 46.98947px;
+    font-size: 2.93684rem;
+    margin-bottom: 0.56183rem;
+  }
+
+  h3 {
+    font-size: 35.24211px;
+    font-size: 2.20263rem;
+    margin-bottom: 0.7491rem;
+  }
+
+  h4 {
+    font-size: 23.49474px;
+    font-size: 1.46842rem;
+    margin-bottom: 1.12366rem;
+  }
+
+  h5 {
+    font-size: 20.55789px;
+    font-size: 1.28487rem;
+    margin-bottom: 1.28418rem;
+  }
+
+  h6 {
+    font-size: 17.62105px;
+    font-size: 1.10132rem;
+    margin-bottom: 1.49821rem;
+  }
+}
+@media (max-width: 63.25rem) {
+  h1 {
+    font-size: 58.73684px;
+    font-size: 3.67105rem;
+    margin-bottom: 0.44946rem;
+  }
+
+  h2 {
+    font-size: 46.98947px;
+    font-size: 2.93684rem;
+    margin-bottom: 0.56183rem;
+  }
+
+  h3 {
+    font-size: 35.24211px;
+    font-size: 2.20263rem;
+    margin-bottom: 0.7491rem;
+  }
+
+  h4 {
+    font-size: 23.49474px;
+    font-size: 1.46842rem;
+    margin-bottom: 1.12366rem;
+  }
+
+  h5 {
+    font-size: 20.55789px;
+    font-size: 1.28487rem;
+    margin-bottom: 1.28418rem;
+  }
+
+  h6 {
+    font-size: 17.62105px;
+    font-size: 1.10132rem;
+    margin-bottom: 1.49821rem;
+  }
+}
+@media (max-width: 984px) {
+  h1 {
+    font-size: 57.47368px;
+    font-size: 3.59211rem;
+    margin-bottom: 0.45934rem;
+  }
+
+  h2 {
+    font-size: 45.97895px;
+    font-size: 2.87368rem;
+    margin-bottom: 0.57418rem;
+  }
+
+  h3 {
+    font-size: 34.48421px;
+    font-size: 2.15526rem;
+    margin-bottom: 0.76557rem;
+  }
+
+  h4 {
+    font-size: 22.98947px;
+    font-size: 1.43684rem;
+    margin-bottom: 1.14835rem;
+  }
+
+  h5 {
+    font-size: 20.11579px;
+    font-size: 1.25724rem;
+    margin-bottom: 1.3124rem;
+  }
+
+  h6 {
+    font-size: 17.24211px;
+    font-size: 1.07763rem;
+    margin-bottom: 1.53114rem;
+  }
+}
+@media (max-width: 61.5rem) {
+  h1 {
+    font-size: 57.47368px;
+    font-size: 3.59211rem;
+    margin-bottom: 0.45934rem;
+  }
+
+  h2 {
+    font-size: 45.97895px;
+    font-size: 2.87368rem;
+    margin-bottom: 0.57418rem;
+  }
+
+  h3 {
+    font-size: 34.48421px;
+    font-size: 2.15526rem;
+    margin-bottom: 0.76557rem;
+  }
+
+  h4 {
+    font-size: 22.98947px;
+    font-size: 1.43684rem;
+    margin-bottom: 1.14835rem;
+  }
+
+  h5 {
+    font-size: 20.11579px;
+    font-size: 1.25724rem;
+    margin-bottom: 1.3124rem;
+  }
+
+  h6 {
+    font-size: 17.24211px;
+    font-size: 1.07763rem;
+    margin-bottom: 1.53114rem;
+  }
+}
+@media (max-width: 956px) {
+  h1 {
+    font-size: 56.21053px;
+    font-size: 3.51316rem;
+    margin-bottom: 0.46966rem;
+  }
+
+  h2 {
+    font-size: 44.96842px;
+    font-size: 2.81053rem;
+    margin-bottom: 0.58708rem;
+  }
+
+  h3 {
+    font-size: 33.72632px;
+    font-size: 2.10789rem;
+    margin-bottom: 0.78277rem;
+  }
+
+  h4 {
+    font-size: 22.48421px;
+    font-size: 1.40526rem;
+    margin-bottom: 1.17416rem;
+  }
+
+  h5 {
+    font-size: 19.67368px;
+    font-size: 1.22961rem;
+    margin-bottom: 1.34189rem;
+  }
+
+  h6 {
+    font-size: 16.86316px;
+    font-size: 1.05395rem;
+    margin-bottom: 1.56554rem;
+  }
+}
+@media (max-width: 59.75rem) {
+  h1 {
+    font-size: 56.21053px;
+    font-size: 3.51316rem;
+    margin-bottom: 0.46966rem;
+  }
+
+  h2 {
+    font-size: 44.96842px;
+    font-size: 2.81053rem;
+    margin-bottom: 0.58708rem;
+  }
+
+  h3 {
+    font-size: 33.72632px;
+    font-size: 2.10789rem;
+    margin-bottom: 0.78277rem;
+  }
+
+  h4 {
+    font-size: 22.48421px;
+    font-size: 1.40526rem;
+    margin-bottom: 1.17416rem;
+  }
+
+  h5 {
+    font-size: 19.67368px;
+    font-size: 1.22961rem;
+    margin-bottom: 1.34189rem;
+  }
+
+  h6 {
+    font-size: 16.86316px;
+    font-size: 1.05395rem;
+    margin-bottom: 1.56554rem;
+  }
+}
+@media (max-width: 928px) {
+  h1 {
+    font-size: 54.94737px;
+    font-size: 3.43421rem;
+    margin-bottom: 0.48046rem;
+  }
+
+  h2 {
+    font-size: 43.95789px;
+    font-size: 2.74737rem;
+    margin-bottom: 0.60057rem;
+  }
+
+  h3 {
+    font-size: 32.96842px;
+    font-size: 2.06053rem;
+    margin-bottom: 0.80077rem;
+  }
+
+  h4 {
+    font-size: 21.97895px;
+    font-size: 1.37368rem;
+    margin-bottom: 1.20115rem;
+  }
+
+  h5 {
+    font-size: 19.23158px;
+    font-size: 1.20197rem;
+    margin-bottom: 1.37274rem;
+  }
+
+  h6 {
+    font-size: 16.48421px;
+    font-size: 1.03026rem;
+    margin-bottom: 1.60153rem;
+  }
+}
+@media (max-width: 58rem) {
+  h1 {
+    font-size: 54.94737px;
+    font-size: 3.43421rem;
+    margin-bottom: 0.48046rem;
+  }
+
+  h2 {
+    font-size: 43.95789px;
+    font-size: 2.74737rem;
+    margin-bottom: 0.60057rem;
+  }
+
+  h3 {
+    font-size: 32.96842px;
+    font-size: 2.06053rem;
+    margin-bottom: 0.80077rem;
+  }
+
+  h4 {
+    font-size: 21.97895px;
+    font-size: 1.37368rem;
+    margin-bottom: 1.20115rem;
+  }
+
+  h5 {
+    font-size: 19.23158px;
+    font-size: 1.20197rem;
+    margin-bottom: 1.37274rem;
+  }
+
+  h6 {
+    font-size: 16.48421px;
+    font-size: 1.03026rem;
+    margin-bottom: 1.60153rem;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 53.68421px;
+    font-size: 3.35526rem;
+    margin-bottom: 0.49176rem;
+  }
+
+  h2 {
+    font-size: 42.94737px;
+    font-size: 2.68421rem;
+    margin-bottom: 0.61471rem;
+  }
+
+  h3 {
+    font-size: 32.21053px;
+    font-size: 2.01316rem;
+    margin-bottom: 0.81961rem;
+  }
+
+  h4 {
+    font-size: 21.47368px;
+    font-size: 1.34211rem;
+    margin-bottom: 1.22941rem;
+  }
+
+  h5 {
+    font-size: 18.78947px;
+    font-size: 1.17434rem;
+    margin-bottom: 1.40504rem;
+  }
+
+  h6 {
+    font-size: 16.10526px;
+    font-size: 1.00658rem;
+    margin-bottom: 1.63922rem;
+  }
+}
+@media (max-width: 56.25rem) {
+  h1 {
+    font-size: 53.68421px;
+    font-size: 3.35526rem;
+    margin-bottom: 0.49176rem;
+  }
+
+  h2 {
+    font-size: 42.94737px;
+    font-size: 2.68421rem;
+    margin-bottom: 0.61471rem;
+  }
+
+  h3 {
+    font-size: 32.21053px;
+    font-size: 2.01316rem;
+    margin-bottom: 0.81961rem;
+  }
+
+  h4 {
+    font-size: 21.47368px;
+    font-size: 1.34211rem;
+    margin-bottom: 1.22941rem;
+  }
+
+  h5 {
+    font-size: 18.78947px;
+    font-size: 1.17434rem;
+    margin-bottom: 1.40504rem;
+  }
+
+  h6 {
+    font-size: 16.10526px;
+    font-size: 1.00658rem;
+    margin-bottom: 1.63922rem;
+  }
+}
+@media (max-width: 872px) {
+  h1 {
+    font-size: 52.42105px;
+    font-size: 3.27632rem;
+    margin-bottom: 0.50361rem;
+  }
+
+  h2 {
+    font-size: 41.93684px;
+    font-size: 2.62105rem;
+    margin-bottom: 0.62952rem;
+  }
+
+  h3 {
+    font-size: 31.45263px;
+    font-size: 1.96579rem;
+    margin-bottom: 0.83936rem;
+  }
+
+  h4 {
+    font-size: 20.96842px;
+    font-size: 1.31053rem;
+    margin-bottom: 1.25904rem;
+  }
+
+  h5 {
+    font-size: 18.34737px;
+    font-size: 1.14671rem;
+    margin-bottom: 1.4389rem;
+  }
+
+  h6 {
+    font-size: 15.72632px;
+    font-size: 0.98289rem;
+    margin-bottom: 1.67871rem;
+  }
+}
+@media (max-width: 54.5rem) {
+  h1 {
+    font-size: 52.42105px;
+    font-size: 3.27632rem;
+    margin-bottom: 0.50361rem;
+  }
+
+  h2 {
+    font-size: 41.93684px;
+    font-size: 2.62105rem;
+    margin-bottom: 0.62952rem;
+  }
+
+  h3 {
+    font-size: 31.45263px;
+    font-size: 1.96579rem;
+    margin-bottom: 0.83936rem;
+  }
+
+  h4 {
+    font-size: 20.96842px;
+    font-size: 1.31053rem;
+    margin-bottom: 1.25904rem;
+  }
+
+  h5 {
+    font-size: 18.34737px;
+    font-size: 1.14671rem;
+    margin-bottom: 1.4389rem;
+  }
+
+  h6 {
+    font-size: 15.72632px;
+    font-size: 0.98289rem;
+    margin-bottom: 1.67871rem;
+  }
+}
+@media (max-width: 844px) {
+  h1 {
+    font-size: 51.15789px;
+    font-size: 3.19737rem;
+    margin-bottom: 0.51605rem;
+  }
+
+  h2 {
+    font-size: 40.92632px;
+    font-size: 2.55789rem;
+    margin-bottom: 0.64506rem;
+  }
+
+  h3 {
+    font-size: 30.69474px;
+    font-size: 1.91842rem;
+    margin-bottom: 0.86008rem;
+  }
+
+  h4 {
+    font-size: 20.46316px;
+    font-size: 1.27895rem;
+    margin-bottom: 1.29012rem;
+  }
+
+  h5 {
+    font-size: 17.90526px;
+    font-size: 1.11908rem;
+    margin-bottom: 1.47443rem;
+  }
+
+  h6 {
+    font-size: 15.34737px;
+    font-size: 0.95921rem;
+    margin-bottom: 1.72016rem;
+  }
+}
+@media (max-width: 52.75rem) {
+  h1 {
+    font-size: 51.15789px;
+    font-size: 3.19737rem;
+    margin-bottom: 0.51605rem;
+  }
+
+  h2 {
+    font-size: 40.92632px;
+    font-size: 2.55789rem;
+    margin-bottom: 0.64506rem;
+  }
+
+  h3 {
+    font-size: 30.69474px;
+    font-size: 1.91842rem;
+    margin-bottom: 0.86008rem;
+  }
+
+  h4 {
+    font-size: 20.46316px;
+    font-size: 1.27895rem;
+    margin-bottom: 1.29012rem;
+  }
+
+  h5 {
+    font-size: 17.90526px;
+    font-size: 1.11908rem;
+    margin-bottom: 1.47443rem;
+  }
+
+  h6 {
+    font-size: 15.34737px;
+    font-size: 0.95921rem;
+    margin-bottom: 1.72016rem;
+  }
+}
+@media (max-width: 816px) {
+  h1 {
+    font-size: 49.89474px;
+    font-size: 3.11842rem;
+    margin-bottom: 0.52911rem;
+  }
+
+  h2 {
+    font-size: 39.91579px;
+    font-size: 2.49474rem;
+    margin-bottom: 0.66139rem;
+  }
+
+  h3 {
+    font-size: 29.93684px;
+    font-size: 1.87105rem;
+    margin-bottom: 0.88186rem;
+  }
+
+  h4 {
+    font-size: 19.95789px;
+    font-size: 1.24737rem;
+    margin-bottom: 1.32278rem;
+  }
+
+  h5 {
+    font-size: 17.46316px;
+    font-size: 1.09145rem;
+    margin-bottom: 1.51175rem;
+  }
+
+  h6 {
+    font-size: 14.96842px;
+    font-size: 0.93553rem;
+    margin-bottom: 1.76371rem;
+  }
+}
+@media (max-width: 51rem) {
+  h1 {
+    font-size: 49.89474px;
+    font-size: 3.11842rem;
+    margin-bottom: 0.52911rem;
+  }
+
+  h2 {
+    font-size: 39.91579px;
+    font-size: 2.49474rem;
+    margin-bottom: 0.66139rem;
+  }
+
+  h3 {
+    font-size: 29.93684px;
+    font-size: 1.87105rem;
+    margin-bottom: 0.88186rem;
+  }
+
+  h4 {
+    font-size: 19.95789px;
+    font-size: 1.24737rem;
+    margin-bottom: 1.32278rem;
+  }
+
+  h5 {
+    font-size: 17.46316px;
+    font-size: 1.09145rem;
+    margin-bottom: 1.51175rem;
+  }
+
+  h6 {
+    font-size: 14.96842px;
+    font-size: 0.93553rem;
+    margin-bottom: 1.76371rem;
+  }
+}
+@media (max-width: 788px) {
+  h1 {
+    font-size: 48.63158px;
+    font-size: 3.03947rem;
+    margin-bottom: 0.54286rem;
+  }
+
+  h2 {
+    font-size: 38.90526px;
+    font-size: 2.43158rem;
+    margin-bottom: 0.67857rem;
+  }
+
+  h3 {
+    font-size: 29.17895px;
+    font-size: 1.82368rem;
+    margin-bottom: 0.90476rem;
+  }
+
+  h4 {
+    font-size: 19.45263px;
+    font-size: 1.21579rem;
+    margin-bottom: 1.35714rem;
+  }
+
+  h5 {
+    font-size: 17.02105px;
+    font-size: 1.06382rem;
+    margin-bottom: 1.55102rem;
+  }
+
+  h6 {
+    font-size: 14.58947px;
+    font-size: 0.91184rem;
+    margin-bottom: 1.80952rem;
+  }
+}
+@media (max-width: 49.25rem) {
+  h1 {
+    font-size: 48.63158px;
+    font-size: 3.03947rem;
+    margin-bottom: 0.54286rem;
+  }
+
+  h2 {
+    font-size: 38.90526px;
+    font-size: 2.43158rem;
+    margin-bottom: 0.67857rem;
+  }
+
+  h3 {
+    font-size: 29.17895px;
+    font-size: 1.82368rem;
+    margin-bottom: 0.90476rem;
+  }
+
+  h4 {
+    font-size: 19.45263px;
+    font-size: 1.21579rem;
+    margin-bottom: 1.35714rem;
+  }
+
+  h5 {
+    font-size: 17.02105px;
+    font-size: 1.06382rem;
+    margin-bottom: 1.55102rem;
+  }
+
+  h6 {
+    font-size: 14.58947px;
+    font-size: 0.91184rem;
+    margin-bottom: 1.80952rem;
+  }
+}
+@media (max-width: 760px) {
+  h1 {
+    font-size: 47.36842px;
+    font-size: 2.96053rem;
+    margin-bottom: 0.55733rem;
+  }
+
+  h2 {
+    font-size: 37.89474px;
+    font-size: 2.36842rem;
+    margin-bottom: 0.69667rem;
+  }
+
+  h3 {
+    font-size: 28.42105px;
+    font-size: 1.77632rem;
+    margin-bottom: 0.92889rem;
+  }
+
+  h4 {
+    font-size: 18.94737px;
+    font-size: 1.18421rem;
+    margin-bottom: 1.39333rem;
+  }
+
+  h5 {
+    font-size: 16.57895px;
+    font-size: 1.03618rem;
+    margin-bottom: 1.59238rem;
+  }
+
+  h6 {
+    font-size: 14.21053px;
+    font-size: 0.88816rem;
+    margin-bottom: 1.85778rem;
+  }
+}
+@media (max-width: 47.5rem) {
+  h1 {
+    font-size: 47.36842px;
+    font-size: 2.96053rem;
+    margin-bottom: 0.55733rem;
+  }
+
+  h2 {
+    font-size: 37.89474px;
+    font-size: 2.36842rem;
+    margin-bottom: 0.69667rem;
+  }
+
+  h3 {
+    font-size: 28.42105px;
+    font-size: 1.77632rem;
+    margin-bottom: 0.92889rem;
+  }
+
+  h4 {
+    font-size: 18.94737px;
+    font-size: 1.18421rem;
+    margin-bottom: 1.39333rem;
+  }
+
+  h5 {
+    font-size: 16.57895px;
+    font-size: 1.03618rem;
+    margin-bottom: 1.59238rem;
+  }
+
+  h6 {
+    font-size: 14.21053px;
+    font-size: 0.88816rem;
+    margin-bottom: 1.85778rem;
+  }
+}
+@media (max-width: 732px) {
+  h1 {
+    font-size: 46.10526px;
+    font-size: 2.88158rem;
+    margin-bottom: 0.5726rem;
+  }
+
+  h2 {
+    font-size: 36.88421px;
+    font-size: 2.30526rem;
+    margin-bottom: 0.71575rem;
+  }
+
+  h3 {
+    font-size: 27.66316px;
+    font-size: 1.72895rem;
+    margin-bottom: 0.95434rem;
+  }
+
+  h4 {
+    font-size: 18.44211px;
+    font-size: 1.15263rem;
+    margin-bottom: 1.43151rem;
+  }
+
+  h5 {
+    font-size: 16.13684px;
+    font-size: 1.00855rem;
+    margin-bottom: 1.63601rem;
+  }
+
+  h6 {
+    font-size: 13.83158px;
+    font-size: 0.86447rem;
+    margin-bottom: 1.90868rem;
+  }
+}
+@media (max-width: 45.75rem) {
+  h1 {
+    font-size: 46.10526px;
+    font-size: 2.88158rem;
+    margin-bottom: 0.5726rem;
+  }
+
+  h2 {
+    font-size: 36.88421px;
+    font-size: 2.30526rem;
+    margin-bottom: 0.71575rem;
+  }
+
+  h3 {
+    font-size: 27.66316px;
+    font-size: 1.72895rem;
+    margin-bottom: 0.95434rem;
+  }
+
+  h4 {
+    font-size: 18.44211px;
+    font-size: 1.15263rem;
+    margin-bottom: 1.43151rem;
+  }
+
+  h5 {
+    font-size: 16.13684px;
+    font-size: 1.00855rem;
+    margin-bottom: 1.63601rem;
+  }
+
+  h6 {
+    font-size: 13.83158px;
+    font-size: 0.86447rem;
+    margin-bottom: 1.90868rem;
+  }
+}
+@media (max-width: 704px) {
+  h1 {
+    font-size: 44.84211px;
+    font-size: 2.80263rem;
+    margin-bottom: 0.58873rem;
+  }
+
+  h2 {
+    font-size: 35.87368px;
+    font-size: 2.24211rem;
+    margin-bottom: 0.73592rem;
+  }
+
+  h3 {
+    font-size: 26.90526px;
+    font-size: 1.68158rem;
+    margin-bottom: 0.98122rem;
+  }
+
+  h4 {
+    font-size: 17.93684px;
+    font-size: 1.12105rem;
+    margin-bottom: 1.47183rem;
+  }
+
+  h5 {
+    font-size: 15.69474px;
+    font-size: 0.98092rem;
+    margin-bottom: 1.68209rem;
+  }
+
+  h6 {
+    font-size: 13.45263px;
+    font-size: 0.84079rem;
+    margin-bottom: 1.96244rem;
+  }
+}
+@media (max-width: 44rem) {
+  h1 {
+    font-size: 44.84211px;
+    font-size: 2.80263rem;
+    margin-bottom: 0.58873rem;
+  }
+
+  h2 {
+    font-size: 35.87368px;
+    font-size: 2.24211rem;
+    margin-bottom: 0.73592rem;
+  }
+
+  h3 {
+    font-size: 26.90526px;
+    font-size: 1.68158rem;
+    margin-bottom: 0.98122rem;
+  }
+
+  h4 {
+    font-size: 17.93684px;
+    font-size: 1.12105rem;
+    margin-bottom: 1.47183rem;
+  }
+
+  h5 {
+    font-size: 15.69474px;
+    font-size: 0.98092rem;
+    margin-bottom: 1.68209rem;
+  }
+
+  h6 {
+    font-size: 13.45263px;
+    font-size: 0.84079rem;
+    margin-bottom: 1.96244rem;
+  }
+}
+@media (max-width: 676px) {
+  h1 {
+    font-size: 43.57895px;
+    font-size: 2.72368rem;
+    margin-bottom: 0.6058rem;
+  }
+
+  h2 {
+    font-size: 34.86316px;
+    font-size: 2.17895rem;
+    margin-bottom: 0.75725rem;
+  }
+
+  h3 {
+    font-size: 26.14737px;
+    font-size: 1.63421rem;
+    margin-bottom: 1.00966rem;
+  }
+
+  h4 {
+    font-size: 17.43158px;
+    font-size: 1.08947rem;
+    margin-bottom: 1.51449rem;
+  }
+
+  h5 {
+    font-size: 15.25263px;
+    font-size: 0.95329rem;
+    margin-bottom: 1.73085rem;
+  }
+
+  h6 {
+    font-size: 13.07368px;
+    font-size: 0.81711rem;
+    margin-bottom: 2.01932rem;
+  }
+}
+@media (max-width: 42.25rem) {
+  h1 {
+    font-size: 43.57895px;
+    font-size: 2.72368rem;
+    margin-bottom: 0.6058rem;
+  }
+
+  h2 {
+    font-size: 34.86316px;
+    font-size: 2.17895rem;
+    margin-bottom: 0.75725rem;
+  }
+
+  h3 {
+    font-size: 26.14737px;
+    font-size: 1.63421rem;
+    margin-bottom: 1.00966rem;
+  }
+
+  h4 {
+    font-size: 17.43158px;
+    font-size: 1.08947rem;
+    margin-bottom: 1.51449rem;
+  }
+
+  h5 {
+    font-size: 15.25263px;
+    font-size: 0.95329rem;
+    margin-bottom: 1.73085rem;
+  }
+
+  h6 {
+    font-size: 13.07368px;
+    font-size: 0.81711rem;
+    margin-bottom: 2.01932rem;
+  }
+}
+@media (max-width: 648px) {
+  h1 {
+    font-size: 42.31579px;
+    font-size: 2.64474rem;
+    margin-bottom: 0.62388rem;
+  }
+
+  h2 {
+    font-size: 33.85263px;
+    font-size: 2.11579rem;
+    margin-bottom: 0.77985rem;
+  }
+
+  h3 {
+    font-size: 25.38947px;
+    font-size: 1.58684rem;
+    margin-bottom: 1.0398rem;
+  }
+
+  h4 {
+    font-size: 16.92632px;
+    font-size: 1.05789rem;
+    margin-bottom: 1.5597rem;
+  }
+
+  h5 {
+    font-size: 14.81053px;
+    font-size: 0.92566rem;
+    margin-bottom: 1.78252rem;
+  }
+
+  h6 {
+    font-size: 12.69474px;
+    font-size: 0.79342rem;
+    margin-bottom: 2.0796rem;
+  }
+}
+@media (max-width: 40.5rem) {
+  h1 {
+    font-size: 42.31579px;
+    font-size: 2.64474rem;
+    margin-bottom: 0.62388rem;
+  }
+
+  h2 {
+    font-size: 33.85263px;
+    font-size: 2.11579rem;
+    margin-bottom: 0.77985rem;
+  }
+
+  h3 {
+    font-size: 25.38947px;
+    font-size: 1.58684rem;
+    margin-bottom: 1.0398rem;
+  }
+
+  h4 {
+    font-size: 16.92632px;
+    font-size: 1.05789rem;
+    margin-bottom: 1.5597rem;
+  }
+
+  h5 {
+    font-size: 14.81053px;
+    font-size: 0.92566rem;
+    margin-bottom: 1.78252rem;
+  }
+
+  h6 {
+    font-size: 12.69474px;
+    font-size: 0.79342rem;
+    margin-bottom: 2.0796rem;
+  }
+}
+@media (max-width: 620px) {
+  h1 {
+    font-size: 41.05263px;
+    font-size: 2.56579rem;
+    margin-bottom: 0.64308rem;
+  }
+
+  h2 {
+    font-size: 32.84211px;
+    font-size: 2.05263rem;
+    margin-bottom: 0.80385rem;
+  }
+
+  h3 {
+    font-size: 24.63158px;
+    font-size: 1.53947rem;
+    margin-bottom: 1.07179rem;
+  }
+
+  h4 {
+    font-size: 16.42105px;
+    font-size: 1.02632rem;
+    margin-bottom: 1.60769rem;
+  }
+
+  h5 {
+    font-size: 14.36842px;
+    font-size: 0.89803rem;
+    margin-bottom: 1.83736rem;
+  }
+
+  h6 {
+    font-size: 12.31579px;
+    font-size: 0.76974rem;
+    margin-bottom: 2.14359rem;
+  }
+}
+@media (max-width: 38.75rem) {
+  h1 {
+    font-size: 41.05263px;
+    font-size: 2.56579rem;
+    margin-bottom: 0.64308rem;
+  }
+
+  h2 {
+    font-size: 32.84211px;
+    font-size: 2.05263rem;
+    margin-bottom: 0.80385rem;
+  }
+
+  h3 {
+    font-size: 24.63158px;
+    font-size: 1.53947rem;
+    margin-bottom: 1.07179rem;
+  }
+
+  h4 {
+    font-size: 16.42105px;
+    font-size: 1.02632rem;
+    margin-bottom: 1.60769rem;
+  }
+
+  h5 {
+    font-size: 14.36842px;
+    font-size: 0.89803rem;
+    margin-bottom: 1.83736rem;
+  }
+
+  h6 {
+    font-size: 12.31579px;
+    font-size: 0.76974rem;
+    margin-bottom: 2.14359rem;
+  }
+}
+@media (max-width: 592px) {
+  h1 {
+    font-size: 39.78947px;
+    font-size: 2.48684rem;
+    margin-bottom: 0.66349rem;
+  }
+
+  h2 {
+    font-size: 31.83158px;
+    font-size: 1.98947rem;
+    margin-bottom: 0.82937rem;
+  }
+
+  h3 {
+    font-size: 23.87368px;
+    font-size: 1.49211rem;
+    margin-bottom: 1.10582rem;
+  }
+
+  h4 {
+    font-size: 15.91579px;
+    font-size: 0.99474rem;
+    margin-bottom: 1.65873rem;
+  }
+
+  h5 {
+    font-size: 13.92632px;
+    font-size: 0.87039rem;
+    margin-bottom: 1.89569rem;
+  }
+
+  h6 {
+    font-size: 11.93684px;
+    font-size: 0.74605rem;
+    margin-bottom: 2.21164rem;
+  }
+}
+@media (max-width: 37rem) {
+  h1 {
+    font-size: 39.78947px;
+    font-size: 2.48684rem;
+    margin-bottom: 0.66349rem;
+  }
+
+  h2 {
+    font-size: 31.83158px;
+    font-size: 1.98947rem;
+    margin-bottom: 0.82937rem;
+  }
+
+  h3 {
+    font-size: 23.87368px;
+    font-size: 1.49211rem;
+    margin-bottom: 1.10582rem;
+  }
+
+  h4 {
+    font-size: 15.91579px;
+    font-size: 0.99474rem;
+    margin-bottom: 1.65873rem;
+  }
+
+  h5 {
+    font-size: 13.92632px;
+    font-size: 0.87039rem;
+    margin-bottom: 1.89569rem;
+  }
+
+  h6 {
+    font-size: 11.93684px;
+    font-size: 0.74605rem;
+    margin-bottom: 2.21164rem;
+  }
+}
+@media (max-width: 564px) {
+  h1 {
+    font-size: 38.52632px;
+    font-size: 2.40789rem;
+    margin-bottom: 0.68525rem;
+  }
+
+  h2 {
+    font-size: 30.82105px;
+    font-size: 1.92632rem;
+    margin-bottom: 0.85656rem;
+  }
+
+  h3 {
+    font-size: 23.11579px;
+    font-size: 1.44474rem;
+    margin-bottom: 1.14208rem;
+  }
+
+  h4 {
+    font-size: 15.41053px;
+    font-size: 0.96316rem;
+    margin-bottom: 1.71311rem;
+  }
+
+  h5 {
+    font-size: 13.48421px;
+    font-size: 0.84276rem;
+    margin-bottom: 1.95785rem;
+  }
+
+  h6 {
+    font-size: 11.55789px;
+    font-size: 0.72237rem;
+    margin-bottom: 2.28415rem;
+  }
+}
+@media (max-width: 35.25rem) {
+  h1 {
+    font-size: 38.52632px;
+    font-size: 2.40789rem;
+    margin-bottom: 0.68525rem;
+  }
+
+  h2 {
+    font-size: 30.82105px;
+    font-size: 1.92632rem;
+    margin-bottom: 0.85656rem;
+  }
+
+  h3 {
+    font-size: 23.11579px;
+    font-size: 1.44474rem;
+    margin-bottom: 1.14208rem;
+  }
+
+  h4 {
+    font-size: 15.41053px;
+    font-size: 0.96316rem;
+    margin-bottom: 1.71311rem;
+  }
+
+  h5 {
+    font-size: 13.48421px;
+    font-size: 0.84276rem;
+    margin-bottom: 1.95785rem;
+  }
+
+  h6 {
+    font-size: 11.55789px;
+    font-size: 0.72237rem;
+    margin-bottom: 2.28415rem;
+  }
+}
+@media (max-width: 536px) {
+  h1 {
+    font-size: 37.26316px;
+    font-size: 2.32895rem;
+    margin-bottom: 0.70847rem;
+  }
+
+  h2 {
+    font-size: 29.81053px;
+    font-size: 1.86316rem;
+    margin-bottom: 0.88559rem;
+  }
+
+  h3 {
+    font-size: 22.35789px;
+    font-size: 1.39737rem;
+    margin-bottom: 1.18079rem;
+  }
+
+  h4 {
+    font-size: 14.90526px;
+    font-size: 0.93158rem;
+    margin-bottom: 1.77119rem;
+  }
+
+  h5 {
+    font-size: 13.04211px;
+    font-size: 0.81513rem;
+    margin-bottom: 2.02421rem;
+  }
+
+  h6 {
+    font-size: 11.17895px;
+    font-size: 0.69868rem;
+    margin-bottom: 2.36158rem;
+  }
+}
+@media (max-width: 33.5rem) {
+  h1 {
+    font-size: 37.26316px;
+    font-size: 2.32895rem;
+    margin-bottom: 0.70847rem;
+  }
+
+  h2 {
+    font-size: 29.81053px;
+    font-size: 1.86316rem;
+    margin-bottom: 0.88559rem;
+  }
+
+  h3 {
+    font-size: 22.35789px;
+    font-size: 1.39737rem;
+    margin-bottom: 1.18079rem;
+  }
+
+  h4 {
+    font-size: 14.90526px;
+    font-size: 0.93158rem;
+    margin-bottom: 1.77119rem;
+  }
+
+  h5 {
+    font-size: 13.04211px;
+    font-size: 0.81513rem;
+    margin-bottom: 2.02421rem;
+  }
+
+  h6 {
+    font-size: 11.17895px;
+    font-size: 0.69868rem;
+    margin-bottom: 2.36158rem;
+  }
+}
+@media (max-width: 508px) {
+  h1 {
+    font-size: 36.0px;
+    font-size: 2.25rem;
+    margin-bottom: 0.73333rem;
+  }
+
+  h2 {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    margin-bottom: 0.91667rem;
+  }
+
+  h3 {
+    font-size: 21.6px;
+    font-size: 1.35rem;
+    margin-bottom: 1.22222rem;
+  }
+
+  h4 {
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    margin-bottom: 1.83333rem;
+  }
+
+  h5 {
+    font-size: 12.6px;
+    font-size: 0.7875rem;
+    margin-bottom: 2.09524rem;
+  }
+
+  h6 {
+    font-size: 10.8px;
+    font-size: 0.675rem;
+    margin-bottom: 2.44444rem;
+  }
+}
+@media (max-width: 31.75rem) {
+  h1 {
+    font-size: 36.0px;
+    font-size: 2.25rem;
+    margin-bottom: 0.73333rem;
+  }
+
+  h2 {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    margin-bottom: 0.91667rem;
+  }
+
+  h3 {
+    font-size: 21.6px;
+    font-size: 1.35rem;
+    margin-bottom: 1.22222rem;
+  }
+
+  h4 {
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    margin-bottom: 1.83333rem;
+  }
+
+  h5 {
+    font-size: 12.6px;
+    font-size: 0.7875rem;
+    margin-bottom: 2.09524rem;
+  }
+
+  h6 {
+    font-size: 10.8px;
+    font-size: 0.675rem;
+    margin-bottom: 2.44444rem;
+  }
+}
 aside#sidebar {
-  -webkit-transition: all 0.38s ease-in;
-  -moz-transition: all 0.38s ease-in;
-  transition: all 0.38s ease-in;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 450;
-  width: 25rem;
-  padding: 36;
+  width: 320px;
+  width: 20rem;
+  padding: 32px;
   padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   position: fixed;
   height: 100%;
 }
+aside#sidebar a {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.38s ease-out;
+  -moz-transition: all 0.38s ease-out;
+  transition: all 0.38s ease-out;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+aside#sidebar a:hover {
+  color: #255e8d;
+  text-decoration: underline;
+}
+aside#sidebar ul.menu {
+  padding-left: 0;
+}
 
+@media (max-width: 1040px) {
+  aside#sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+@media (max-width: 65rem) {
+  aside#sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
 section#main {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-left: 450;
-  margin-left: 25rem;
-  padding: 36;
+  margin-left: 320px;
+  margin-left: 20rem;
+  padding: 32px;
   padding: 2rem;
-  max-width: 58em;
+  max-width: 52em;
+}
+section#main a {
+  -webkit-transition: all 0.38s ease-out;
+  -moz-transition: all 0.38s ease-out;
+  transition: all 0.38s ease-out;
+  color: #c58805;
+  text-decoration: none;
+}
+section#main a:hover, section#main a:active, section#main a.active {
+  color: #936604;
+  text-decoration: underline;
+}
+section#main article header .byline {
+  color: #777;
+}
+section#main article .body {
+  font-family: "Kaushan Script", cursive;
+}
+section#main article .body p + p {
+  margin-top: -1em;
+}
+
+@media (max-width: 1040px) {
+  section#main {
+    margin-left: 0;
+  }
+}
+@media (max-width: 65rem) {
+  section#main {
+    margin-left: 0;
+  }
 }

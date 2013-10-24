@@ -1,5 +1,30 @@
+// Colors
+$blue: #255E8D;
+$gold: #c58805;
+
 // Structure
-$sidebar-width: 25; // Units in rem
+$sidebar-width:   20; // Units in rem
+$max-body-width:  52em;
+$sidebar-padding: 2;
+$main-padding:    2;
+$col-break:       65;
+
+// Typography
+$font-base: 16;
+$font-size: 125;
+
+$heading-color: $blue;
+
+$dropcap-color: $blue;
+$dropcap-padding: 0 .25em 0 0;
+$dropcap-margin: 0;
+
+$scale-header-start: $col-break;
+$scale-header-stop: 30;
+$scale-header-interval: 20;
+$scale-header-min: 0.60;
 
 // Fonts
-$font-base: 16;
+$sans-serif: 'Belleza', sans-serif;
+$cursive: 'Kaushan Script', cursive;
+$serif: 'Rokkitt', serif;

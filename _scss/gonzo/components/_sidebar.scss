@@ -1,11 +1,37 @@
 aside#sidebar {
-  @include transition(all .38s ease-in);
   @include box-sizing(border-box);
   @include x-rem(width, $sidebar-width);
-  @include x-rem(padding, 2);
-  @extend %carbon-fibre;
+  @include x-rem(padding, $sidebar-padding);
+  background: rgba(black, .8);
 
   color: white;
   position: fixed;
   height: 100%;
+
+  a {
+    @include x-rem(font-size, 1.2);
+    @include transition(all .38s ease-out);
+
+    color: white;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+
+  ul.menu {
+    padding-left: 0;
+  }
+}
+
+// Breakpoints
+@include rem-breakpoint(max-width, $col-break) {
+  aside#sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
 }

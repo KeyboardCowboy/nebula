@@ -4,5 +4,16 @@ html {
 
 body {
   height: 100%;
+  font-family: $serif;
+}
+
+#page {
   background: transparent url('noisy.png') 0 0 repeat;
 }
+
+@include headers {
+  font-family: $sans-serif;
+}
+
+// Scale the headers
+@include header-scale($scale-header-start, $scale-header-stop, $scale-header-interval, $scale-header-min);

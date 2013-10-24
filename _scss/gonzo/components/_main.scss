@@ -1,6 +1,44 @@
 section#main {
   @include box-sizing(border-box);
   @include x-rem(margin-left, $sidebar-width);
-  @include x-rem(padding, 2);
-  max-width: 58em;
+  @include x-rem(padding, $main-padding);
+  max-width: $max-body-width;
+
+  a {
+    @include transition(all .38s ease-out);
+    color: $gold;
+    text-decoration: none;
+
+    &:hover, &:active, &.active {
+      color: darken($gold, 10%);
+      text-decoration: underline;
+    }
+  }
+
+  article {
+    header {
+      .byline {
+        color: #777;
+      }
+    }
+
+    .body {
+      font-family: $cursive;
+
+      h1 + p {
+        @extend .drop-cap;
+      }
+
+      p + p {
+        margin-top: -1em;
+      }
+    }
+  }
+}
+
+// Breakpoints
+@include rem-breakpoint(max-width, $col-break) {
+  section#main {
+    margin-left: 0;
+  }
 }

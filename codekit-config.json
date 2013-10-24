@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8348",
+  "creatorBuild" : "8376",
   "files" : {
     "\/_scss\/orion\/mixins\/zen-grids\/zen\/_background.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -93,18 +93,6 @@
       "inputAbbreviatedPath" : "\/gonzo\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/gonzo\/gonzo\/_global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/_global.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/_global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -201,18 +189,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/_test\/placeholders.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/placeholders.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/_test\/placeholders.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -225,15 +201,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/gonzo\/gonzo\/components\/_sidebar.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_scss\/orion\/_test\/placeholders.scss" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/components\/_sidebar.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/placeholders.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/components\/_sidebar.css",
+      "outputAbbreviatedPath" : "\/css\/orion\/_test\/placeholders.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -352,15 +328,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/vars\/_variables.scss" : {
+    "\/_scss\/gonzo\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
+      "inputAbbreviatedPath" : "\/_scss\/gonzo\/_global.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/vars\/_variables.css",
+      "outputAbbreviatedPath" : "\/css\/gonzo\/_global.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -388,15 +364,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/gonzo\/_global.scss" : {
+    "\/_scss\/orion\/vars\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/_global.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/gonzo\/_global.css",
+      "outputAbbreviatedPath" : "\/css\/orion\/vars\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -409,42 +385,6 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/orion\/mixins\/zen-grids\/_zen.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/gonzo\/gonzo\/components\/_main.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/components\/_main.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/components\/_main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/gonzo\/gonzo\/_vars.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/_vars.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/_vars.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/gonzo\/gonzo\/gonzo.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo\/gonzo.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/gonzo\/gonzo.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
