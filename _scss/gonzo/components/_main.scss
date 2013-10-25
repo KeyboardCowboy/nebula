@@ -19,18 +19,49 @@ section#main {
     header {
       .byline {
         color: #777;
+
+        i {
+          color: $gold;
+          padding: 0 .5em;
+        }
       }
     }
 
     .body {
       font-family: $cursive;
+      margin: 1em 0 0 0;
 
-      h1 + p {
+      h1 + p,
+      p:first-child {
         @extend .drop-cap;
       }
 
       p + p {
         margin-top: -1em;
+      }
+
+      img {
+        border: 1px solid #444;
+        padding: 2px;
+        border-radius: .5em;
+        width: 38%;
+
+        &:nth-child(odd) {
+          float: right;
+          margin: 0 0 1em 2em;
+        }
+        &:nth-child(even) {
+          float: left;
+          margin: 0 2em 1em 0;
+        }
+
+        &.center {
+          float: none;
+          display: block;
+          margin: 1em auto;
+          width: auto;
+          max-width: 90%;
+        }
       }
     }
   }

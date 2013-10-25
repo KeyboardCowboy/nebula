@@ -576,16 +576,18 @@ h6 {
   color: #255e8d;
 }
 
-p + .drop-cap {
+p + .drop-cap,
+section#main article .body p + p:first-child {
   text-indent: 0;
   margin-top: 0;
 }
 
-.drop-cap:first-letter, section#main article .body h1 + p:first-letter {
+.drop-cap:first-letter, section#main article .body h1 + p:first-letter,
+section#main article .body p:first-child:first-letter {
   float: left;
   margin: 0;
   padding: 0 0.25em 0 0;
-  font-size: 4em;
+  font-size: 3.25em;
   font-family: inherit;
   line-height: 1;
   text-indent: 0;
@@ -1494,6 +1496,7 @@ aside#sidebar a {
   -webkit-transition: all 0.38s ease-out;
   -moz-transition: all 0.38s ease-out;
   transition: all 0.38s ease-out;
+  overflow: hidden;
   color: white;
   text-decoration: none;
   display: block;
@@ -1501,6 +1504,28 @@ aside#sidebar a {
 aside#sidebar a:hover {
   color: #255e8d;
   text-decoration: underline;
+}
+aside#sidebar a:hover span {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+aside#sidebar a span {
+  -webkit-transform: translateX(-1em);
+  -moz-transform: translateX(-1em);
+  -ms-transform: translateX(-1em);
+  -o-transform: translateX(-1em);
+  transform: translateX(-1em);
+  -webkit-transition: all 0.38s ease-out;
+  -moz-transition: all 0.38s ease-out;
+  transition: all 0.38s ease-out;
+  display: block;
+}
+aside#sidebar a i {
+  width: 1em;
+  margin-right: 0;
 }
 aside#sidebar ul.menu {
   padding-left: 0;
@@ -1556,11 +1581,37 @@ section#main a:hover, section#main a:active, section#main a.active {
 section#main article header .byline {
   color: #777;
 }
+section#main article header .byline i {
+  color: #c58805;
+  padding: 0 .5em;
+}
 section#main article .body {
   font-family: "Kaushan Script", cursive;
+  margin: 1em 0 0 0;
 }
 section#main article .body p + p {
   margin-top: -1em;
+}
+section#main article .body img {
+  border: 1px solid #444;
+  padding: 2px;
+  border-radius: .5em;
+  width: 38%;
+}
+section#main article .body img:nth-child(odd) {
+  float: right;
+  margin: 0 0 1em 2em;
+}
+section#main article .body img:nth-child(even) {
+  float: left;
+  margin: 0 2em 1em 0;
+}
+section#main article .body img.center {
+  float: none;
+  display: block;
+  margin: 1em auto;
+  width: auto;
+  max-width: 90%;
 }
 @media (max-width: 800px) {
   section#main {
