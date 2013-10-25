@@ -46,12 +46,12 @@
         }
 
         // Adjust for the offset of the north pointer in the icon.
-        x = Math.round(x - offset);
+        x = -Math.round(x - offset);
 
         // Adjust the CSS to point the compass.
-        css  = 'transform:rotate(-' + x + 'deg);transform-origin: 44% 50%;';
-        css += '-ms-transform:rotate(-' + x + 'deg);-ms-transform-origin: 44% 50%;';
-        css += '-webkit-transform:rotate(-' + x + 'deg);-webkit-transform-origin: 44% 50%;';
+        css  = 'transform:rotate(' + x + 'deg);transform-origin: 44% 50%;';
+        css += '-ms-transform:rotate(' + x + 'deg);-ms-transform-origin: 44% 50%;';
+        css += '-webkit-transform:rotate(' + x + 'deg);-webkit-transform-origin: 44% 50%;';
 
         self.compass.attr('style', css);
       });

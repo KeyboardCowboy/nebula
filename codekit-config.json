@@ -38,17 +38,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/gonzo\/compass.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/compass.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/compass-ck.js",
-      "fileType" : 64
-    },
     "\/_jade\/gonzo\/index.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -59,6 +48,17 @@
       "compileDebug" : 1,
       "outputAbbreviatedPath" : "\/gonzo\/index.html",
       "fileType" : 512
+    },
+    "\/gonzo\/compass.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/gonzo\/compass.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/gonzo\/compass-ck.js",
+      "fileType" : 64
     },
     "\/_scss\/orion\/_test\/master.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -235,15 +235,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/styles\/_base.scss" : {
+    "\/_scss\/orion\/mixins\/_ost-typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_base.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/styles\/_base.css",
+      "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -270,15 +270,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/mixins\/_ost-typography.scss" : {
+    "\/_scss\/orion\/styles\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_base.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-typography.css",
+      "outputAbbreviatedPath" : "\/css\/orion\/styles\/_base.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -374,18 +374,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/vars\/_variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/orion\/vars\/_variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_scss\/orion\/mixins\/_ost-structure.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -395,6 +383,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/orion\/mixins\/_ost-structure.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/vars\/_variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/orion\/vars\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
