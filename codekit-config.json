@@ -38,17 +38,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_jade\/gonzo\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/gonzo\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/index.html",
-      "fileType" : 512
-    },
     "\/gonzo\/compass.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -59,6 +48,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/gonzo\/compass-ck.js",
       "fileType" : 64
+    },
+    "\/_jade\/gonzo\/index.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_jade\/gonzo\/index.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/gonzo\/index.html",
+      "fileType" : 512
     },
     "\/_scss\/orion\/_test\/master.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -326,17 +326,6 @@
       "inputAbbreviatedPath" : "\/gonzo\/gonzo.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/index.html",
-      "fileType" : 512
     },
     "\/_scss\/orion\/_test\/mixins.scss" : {
       "ignoreWasSetByUser" : 1,
