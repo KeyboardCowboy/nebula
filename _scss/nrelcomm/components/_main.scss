@@ -1,0 +1,5 @@
+div#main {
+  clear: both;
+  @include clearfix;
+  @include x-rem(padding, 0 2 2 2);
+}
