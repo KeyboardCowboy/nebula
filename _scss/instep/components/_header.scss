@@ -1,0 +1,73 @@
+header#site-header {
+  @include linear-gradient(top, transparent 40%, $blue 40%, $blue 45%, transparent 45%, transparent 55%, $blue 55%, $blue 60%, transparent 60%, transparent 100%);
+
+  a#logo {
+    display: inline-block;
+    vertical-align: middle;
+    @include box-sizing(border-box);
+    float: left;
+    width: 15%;
+  }
+
+  nav#main-nav {
+    display: block;
+    vertical-align: middle;
+
+    @include linear-gradient(left, transparent 0%, $green 100%);
+    @include box-sizing(border-box);
+
+    //background-color: $green;
+    //border: 2px solid $blue;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        list-style: none;
+        overflow: hidden;
+        //background-color: $green;
+        //border: 2px solid $blue;
+        //border-radius: .62em .38em .62em .38em;
+        position: relative;
+        z-index: 1;
+
+        span.color {
+          background-color: $orange;
+          display: block;
+          height: 100%;
+          width: 100%;
+          border-radius: .5em 0 0 .25em;
+          position: absolute;
+          z-index: 0;
+
+          @include transform(translateX(-95%));
+          @include transition(all .2s ease-out);
+        }
+
+        &:hover span.color {
+          @include transform(translateX(0));
+        }
+
+        a {
+          display: block;
+          padding: 0 1em;
+          text-decoration: none;
+          background-color: transparent;
+          color: $blue;
+          z-index: 1;
+          position: relative;
+          font-family: Chalet, sans-serif;
+
+          @include x-rem(font-size, 1.6);
+
+          &:hover, &:active, &.active {
+          }
+        }
+      }
+    }
+  }
+}
