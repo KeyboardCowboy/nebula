@@ -823,30 +823,42 @@ div#page {
 }
 
 header#site-header {
+  background-color: #0082c8;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(62%, #0082c8), color-stop(62%, transparent));
+  background-image: -webkit-linear-gradient(top, #0082c8 62%, transparent 62%);
+  background-image: linear-gradient(to bottom,#0082c8 62%, transparent 62%);
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, transparent), color-stop(40%, #0082c8), color-stop(45%, #0082c8), color-stop(45%, transparent), color-stop(55%, transparent), color-stop(55%, #0082c8), color-stop(60%, #0082c8), color-stop(60%, transparent), color-stop(100%, transparent));
-  background-image: -webkit-linear-gradient(top, transparent 40%, #0082c8 40%, #0082c8 45%, transparent 45%, transparent 55%, #0082c8 55%, #0082c8 60%, transparent 60%, transparent 100%);
-  background-image: linear-gradient(to bottom,transparent 40%, #0082c8 40%, #0082c8 45%, transparent 45%, transparent 55%, #0082c8 55%, #0082c8 60%, transparent 60%, transparent 100%);
 }
 header#site-header a#logo {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
-  width: 15%;
+  width: 18%;
+  position: relative;
+  z-index: 5;
+  margin-right: -5px;
+}
+header#site-header a#logo img {
+  width: 100%;
 }
 header#site-header nav#main-nav {
-  display: block;
-  vertical-align: middle;
-  background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, #d5e14d));
-  background-image: -webkit-linear-gradient(left, transparent 0%, #d5e14d 100%);
-  background-image: linear-gradient(to right,transparent 0%, #d5e14d 100%);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2em;
+  margin-left: -9%;
+  border-bottom: 3px solid #0082c8;
+  width: 91%;
+  overflow: hidden;
+  box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.38);
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #dddddd);
+  background-image: linear-gradient(to bottom,#f7f7f7, #dddddd);
 }
 header#site-header nav#main-nav ul {
   margin: 0;
@@ -855,45 +867,60 @@ header#site-header nav#main-nav ul {
 header#site-header nav#main-nav ul li {
   margin: 0;
   padding: 0;
-  display: inline-block;
+  display: block;
+  float: left;
   list-style: none;
-  overflow: hidden;
   position: relative;
   z-index: 1;
+  vertical-align: middle;
 }
 header#site-header nav#main-nav ul li span.color {
-  background-color: #ffc423;
+  background-color: #0082c8;
   display: block;
   height: 100%;
   width: 100%;
-  border-radius: .5em 0 0 .25em;
   position: absolute;
   z-index: 0;
-  -webkit-transform: translateX(-95%);
-  -moz-transform: translateX(-95%);
-  -ms-transform: translateX(-95%);
-  -o-transform: translateX(-95%);
-  transform: translateX(-95%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 header#site-header nav#main-nav ul li:hover span.color {
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.38);
 }
 header#site-header nav#main-nav ul li a {
   display: block;
-  padding: 0 1em;
+  padding: .25em 1em 0 1em;
   text-decoration: none;
   background-color: transparent;
-  color: #0082c8;
+  color: #efaf00;
   z-index: 1;
   position: relative;
   font-family: Chalet, sans-serif;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  transition: color 0.2s;
   font-size: 28.8px;
   font-size: 1.6rem;
+}
+header#site-header nav#main-nav ul li a:hover, header#site-header nav#main-nav ul li a:active, header#site-header nav#main-nav ul li a.active {
+  color: white;
+}
+header#site-header nav#main-nav ul li:first-child a {
+  padding-left: 6em;
+}
+
+footer#site-footer {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.62);
 }

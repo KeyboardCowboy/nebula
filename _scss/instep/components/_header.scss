@@ -1,23 +1,38 @@
 header#site-header {
-  @include linear-gradient(top, transparent 40%, $blue 40%, $blue 45%, transparent 45%, transparent 55%, $blue 55%, $blue 60%, transparent 60%, transparent 100%);
+  //@include linear-gradient(top, transparent 40%, $blue 40%, $blue 45%, transparent 45%, transparent 55%, $blue 55%, $blue 60%, transparent 60%, transparent 100%);
+  @include linear-gradient(top, $blue 62%, transparent 62%);
+  background-color: transparent;
 
   a#logo {
+    @include box-sizing(border-box);
     display: inline-block;
     vertical-align: middle;
-    @include box-sizing(border-box);
-    float: left;
-    width: 15%;
+    width: 18%;
+    position: relative;
+    z-index: 5;
+    margin-right: -5px;
+
+    img {
+      width: 100%;
+    }
   }
 
   nav#main-nav {
-    display: block;
-    vertical-align: middle;
-
-    @include linear-gradient(left, transparent 0%, $green 100%);
     @include box-sizing(border-box);
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2em;
+    margin-left: -9%;
+    //padding-left: 9%;
+    border-bottom: 3px solid $blue;
+    width: 91%;
+    overflow: hidden;
 
-    //background-color: $green;
-    //border: 2px solid $blue;
+    box-shadow: inset 0 2px 5px 0 rgba(0,0,0,.38);
+
+    //@include linear-gradient(top, $blue, darken($blue, 10%));
+    //background-color: $blue;
+    @include linear-gradient(top, lighten($grey, 10%), $grey);
 
     ul {
       margin: 0;
@@ -26,45 +41,55 @@ header#site-header {
       li {
         margin: 0;
         padding: 0;
-        display: inline-block;
+        display: block;
+        float: left;
         list-style: none;
-        overflow: hidden;
         //background-color: $green;
         //border: 2px solid $blue;
         //border-radius: .62em .38em .62em .38em;
         position: relative;
         z-index: 1;
+        vertical-align: middle;
 
         span.color {
-          background-color: $orange;
+          background-color: $blue;
           display: block;
           height: 100%;
           width: 100%;
-          border-radius: .5em 0 0 .25em;
           position: absolute;
           z-index: 0;
 
-          @include transform(translateX(-95%));
+          @include transform(translateY(-100%));
           @include transition(all .2s ease-out);
         }
 
         &:hover span.color {
-          @include transform(translateX(0));
+          @include transform(translateY(0));
+          box-shadow: 0 5px 10px 0 rgba(0,0,0,.38);
         }
 
         a {
           display: block;
-          padding: 0 1em;
+          padding: .25em 1em 0 1em;
           text-decoration: none;
           background-color: transparent;
-          color: $blue;
+          color: darken($orange, 10%);
+          //text-shadow: 1px 1px 1px rgba(0,0,0,.2);
           z-index: 1;
           position: relative;
           font-family: Chalet, sans-serif;
-
+          //border-radius: 1em;
+          @include transition(color .2s);
           @include x-rem(font-size, 1.6);
 
           &:hover, &:active, &.active {
+            color: white;
+          }
+        }
+
+        &:first-child {
+          a {
+            padding-left: 6em;
           }
         }
       }

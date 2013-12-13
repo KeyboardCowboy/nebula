@@ -230,16 +230,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_jade\/nrelcomm\/_vars.jade" : {
+    "\/js\/stickyFooter.jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/nrelcomm\/_vars.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/nrelcomm\/_vars.html",
-      "fileType" : 512
+      "inputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.min.js",
+      "fileType" : 64
     },
     "\/_scss\/gonzo\/components\/_sidebar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -253,16 +253,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_js\/stickyFooter.jquery-ck.js" : {
+    "\/_jade\/nrelcomm\/_vars.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_jade\/nrelcomm\/_vars.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/nrelcomm\/_vars.html",
+      "fileType" : 512
+    },
+    "\/gonzo\/gonzo.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_js\/stickyFooter.jquery-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_js\/stickyFooter.jquery-ck.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/gonzo\/gonzo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/nrelcomm\/nrelcomm.js" : {
       "ignoreWasSetByUser" : 0,
@@ -274,15 +283,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/nrelcomm\/nrelcomm.min.js",
       "fileType" : 64
-    },
-    "\/gonzo\/gonzo.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/_scss\/instep\/components\/_nav.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -397,6 +397,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-structure.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/instep\/components\/_footer.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_footer.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -543,7 +555,7 @@
       "inputAbbreviatedPath" : "\/_js\/stickyFooter.jquery.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_js\/stickyFooter.jquery.min.js",
+      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
       "fileType" : 64
     },
     "\/_scss\/instep\/_global.scss" : {
@@ -701,7 +713,7 @@
     "draggedImportConcatenationStyle" : 1,
     "jadeAutoOutputPathStyle" : 3,
     "hamlEscapeHTMLCharacters" : 0,
-    "javascriptAutoOutputPathStyle" : 0,
+    "javascriptAutoOutputPathStyle" : 3,
     "hamlOutputFormat" : 2,
     "stylusAutoOutputPathReplace1" : "stylus",
     "lessStrictImports" : 0,
@@ -748,9 +760,9 @@
     "jadeAutoOutputPathRelativePath" : ".\/",
     "hamlUseUnixNewlines" : 0,
     "hamlAutoOutputPathReplace1" : "",
-    "javascriptAutoOutputPathReplace1" : "",
+    "javascriptAutoOutputPathReplace1" : "_js",
     "stylusOutputStyle" : 0,
-    "javascriptAutoOutputPathReplace2" : "",
+    "javascriptAutoOutputPathReplace2" : "js",
     "sassAutoOutputPathRelativePath" : "..\/",
     "coffeeAutoOutputPathReplace1" : "",
     "hamlUseDoubleQuotes" : 0,
