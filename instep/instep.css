@@ -811,15 +811,43 @@ html {
 }
 
 body {
+  height: 100%;
+  font-family: "Varela Round", serif;
+}
+
+div#page {
   background-color: #dddddd;
   background-image: -webkit-gradient(linear, white 100%, left bottom, color-stop(3%, #dddddd), color-stop(3%, white), color-stop(3.5%, white), color-stop(3.5%, #dddddd), color-stop(9%, #dddddd), color-stop(9%, white), color-stop(9.5%, white), color-stop(9.5%, #dddddd), color-stop(12.5%, #dddddd), color-stop(12.5%, white));
   background-image: -webkit-linear-gradient(left, #dddddd 3%, white 3%, white 3.5%, #dddddd 3.5%, #dddddd 9%, white 9%, white 9.5%, #dddddd 9.5%, #dddddd 12.5%, white 12.5%);
   background-image: linear-gradient(to right,#dddddd 3%, white 3%, white 3.5%, #dddddd 3.5%, #dddddd 9%, white 9%, white 9.5%, #dddddd 9.5%, #dddddd 12.5%, white 12.5%);
-  height: 100%;
 }
 
-div#page {
-  height: 100%;
+section#main {
+  margin-left: 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Metrophobic, sans-serif;
+  color: #0082c8;
+}
+
+.body {
+  max-width: 52em;
+}
+.body img {
+  background-color: #d5e14d;
+  background-image: -webkit-gradient(linear, #ffc423 100%, left bottom, color-stop(6%, #d5e14d), color-stop(6%, #ffc423), color-stop(7%, #ffc423), color-stop(7%, #d5e14d), color-stop(18%, #d5e14d), color-stop(18%, #ffc423), color-stop(19%, #ffc423), color-stop(19%, #d5e14d), color-stop(25%, #d5e14d), color-stop(25%, #ffc423));
+  background-image: -webkit-linear-gradient(-405deg, #d5e14d 6%, #ffc423 6%, #ffc423 7%, #d5e14d 7%, #d5e14d 18%, #ffc423 18%, #ffc423 19%, #d5e14d 19%, #d5e14d 25%, #ffc423 25%);
+  background-image: linear-gradient(135deg,#d5e14d 6%, #ffc423 6%, #ffc423 7%, #d5e14d 7%, #d5e14d 18%, #ffc423 18%, #ffc423 19%, #d5e14d 19%, #d5e14d 25%, #ffc423 25%);
+  padding: 2px 2px 2px 2em;
+}
+.body img:nth-child(odd) {
+  float: right;
+  margin: 0 0 .5em 1em;
+}
+.body img:nth-child(even) {
+  float: left;
+  margin: 0 1em .5em 0;
 }
 
 header#site-header {

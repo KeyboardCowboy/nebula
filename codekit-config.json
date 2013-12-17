@@ -197,7 +197,7 @@
     },
     "\/_jade\/includes\/styleguide-content.jade" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_jade\/includes\/styleguide-content.jade",
@@ -230,6 +230,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_jade\/nrelcomm\/_vars.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_jade\/nrelcomm\/_vars.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/nrelcomm\/_vars.html",
+      "fileType" : 512
+    },
     "\/js\/stickyFooter.jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -253,16 +264,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_jade\/nrelcomm\/_vars.jade" : {
+    "\/_scss\/instep\/components\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/nrelcomm\/_vars.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/nrelcomm\/_vars.html",
-      "fileType" : 512
+      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_base.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_base.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/gonzo\/gonzo.css" : {
       "ignoreWasSetByUser" : 0,
@@ -570,18 +582,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/_styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_styles.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -591,6 +591,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_styles.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
