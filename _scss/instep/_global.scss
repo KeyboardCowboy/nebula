@@ -22,22 +22,57 @@ section#main {
   color: $blue;
 }
 
+@include header-scale(70);
+
 // -- Style Guide Temp
 .body {
   max-width: 52em;
+  @include x-rem(margin-right, 2);
 
-  img {
-    @include linear-gradient(135deg, $green 6%, $orange 6%, $orange 7%, $green 7%, $green 18%, $orange 18%, $orange 19%, $green 19%, $green 25%, $orange 25%, $orange 100%);
-    padding: 2px 2px 2px 2em;
+  p + p {
+    margin-top: 0;
   }
 
-  img:nth-child(odd) {
+  p {
+    margin-bottom: .62em;
+  }
+
+  span.photo {
+    padding-bottom: 2%;
+    @include background-image(radial-gradient(#999 5%, transparent 55%));
+    background-position: center bottom;
+    background-size: 100% 4em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 38%;
+
+    &:nth-child(odd) {
+      float: right;
+      margin: 0 0 .5em 1em;
+    }
+
+    &:nth-child(even) {
+      float: left;
+      margin: 0 1em .5em 0;
+    }
+
+    img {
+      @include linear-gradient(135deg, $green 6%, $orange 6%, $orange 7%, $green 7%, $green 18%, $orange 18%, $orange 19%, $green 19%, $green 25%, $orange 25%, $orange 100%);
+      padding: 2% 2% 2% 8%;
+      width: 100%;
+      border-radius: 2%;
+    }
+  }
+
+/*  span.photo:nth-child(odd) img {
     float: right;
+    display: inline-block;
     margin: 0 0 .5em 1em;
   }
 
-  img:nth-child(even) {
+  span.photo:nth-child(even) img {
+    display: inline-block;
     float: left;
     margin: 0 1em .5em 0;
-  }
+  }*/
 }

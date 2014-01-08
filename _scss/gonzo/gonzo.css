@@ -431,7 +431,7 @@ pre code {
  *
  */
 html {
-  font: normal 112.5%/1.65 serif;
+  font: normal 125%/1.65 serif;
 }
 
 body {
@@ -455,56 +455,56 @@ h1, h2, h3, h4, h5, h6 {
 
 .tera {
   font-size: 117px;
-  font-size: 6.5rem;
-  margin-bottom: 0.25385rem;
+  font-size: 7.3125rem;
+  margin-bottom: 0.22564rem;
 }
 
 .giga {
   font-size: 90px;
-  font-size: 5rem;
-  margin-bottom: 0.33rem;
+  font-size: 5.625rem;
+  margin-bottom: 0.29333rem;
 }
 
 .mega {
   font-size: 72px;
-  font-size: 4rem;
-  margin-bottom: 0.4125rem;
+  font-size: 4.5rem;
+  margin-bottom: 0.36667rem;
 }
 
 .alpha, h1 {
   font-size: 60px;
-  font-size: 3.33333rem;
-  margin-bottom: 0.495rem;
+  font-size: 3.75rem;
+  margin-bottom: 0.44rem;
 }
 
 .beta, h2 {
   font-size: 48px;
-  font-size: 2.66667rem;
-  margin-bottom: 0.61875rem;
+  font-size: 3rem;
+  margin-bottom: 0.55rem;
 }
 
 .gamma, h3 {
   font-size: 36px;
-  font-size: 2rem;
-  margin-bottom: 0.825rem;
+  font-size: 2.25rem;
+  margin-bottom: 0.73333rem;
 }
 
 .delta, h4 {
   font-size: 24px;
-  font-size: 1.33333rem;
-  margin-bottom: 1.2375rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .epsilon, h5 {
   font-size: 21px;
-  font-size: 1.16667rem;
-  margin-bottom: 1.41429rem;
+  font-size: 1.3125rem;
+  margin-bottom: 1.25714rem;
 }
 
 .zeta, h6 {
   font-size: 18px;
-  font-size: 1rem;
-  margin-bottom: 1.65rem;
+  font-size: 1.125rem;
+  margin-bottom: 1.46667rem;
 }
 
 p {
@@ -573,24 +573,26 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222222;
+  color: #255e8d;
 }
 
-p + .drop-cap {
+p + .drop-cap,
+section#main article .body p + p:first-child {
   text-indent: 0;
   margin-top: 0;
 }
 
-.drop-cap:first-letter {
+.drop-cap:first-letter, section#main article .body h1 + p:first-letter,
+section#main article .body p:first-child:first-letter {
   float: left;
-  margin: inherit;
-  padding: inherit;
-  font-size: 4em;
+  margin: 0;
+  padding: 0 0.25em 0 0;
+  font-size: 3.25em;
   font-family: inherit;
   line-height: 1;
   text-indent: 0;
   background: transparent;
-  color: inherit;
+  color: #255e8d;
 }
 
 /**
@@ -798,812 +800,845 @@ ul.menu li, ol.menu li {
   list-style-image: none;
 }
 
-@font-face {
-  font-family: Chalet;
-  font-weight: normal;
-  font-style: normal;
-  src: url("fonts/Chalet/chaletcomprime-colognesixty.eot");
-  src: url("fonts/Chalet/chaletcomprime-colognesixty.eot?#iefix") format("embedded-opentype"), url("fonts/Chalet/chaletcomprime-colognesixty.woff") format("woff"), url("fonts/Chalet/chaletcomprime-colognesixty.ttf") format("truetype"), url("fonts/Chalet/chaletcomprime-colognesixty.svg#Chalet") format("svg");
-}
-
 html {
   height: 100%;
 }
 
 body {
   height: 100%;
-  font-family: "Varela Round", serif;
+  font-family: "Rokkitt", serif;
 }
 
-div#page {
-  background-color: #dddddd;
-  background-image: -webkit-gradient(linear, white 100%, left bottom, color-stop(3%, #dddddd), color-stop(3%, white), color-stop(3.5%, white), color-stop(3.5%, #dddddd), color-stop(9%, #dddddd), color-stop(9%, white), color-stop(9.5%, white), color-stop(9.5%, #dddddd), color-stop(12.5%, #dddddd), color-stop(12.5%, white));
-  background-image: -webkit-linear-gradient(left, #dddddd 3%, white 3%, white 3.5%, #dddddd 3.5%, #dddddd 9%, white 9%, white 9.5%, #dddddd 9.5%, #dddddd 12.5%, white 12.5%);
-  background-image: linear-gradient(to right,#dddddd 3%, white 3%, white 3.5%, #dddddd 3.5%, #dddddd 9%, white 9%, white 9.5%, #dddddd 9.5%, #dddddd 12.5%, white 12.5%);
-}
-
-section#main {
-  margin-left: 15%;
+#page {
+  background: transparent url("noisy.png") 0 0 repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Metrophobic, sans-serif;
-  color: #0082c8;
+  font-family: "Belleza", sans-serif;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 984px) {
   h1 {
-    font-size: 57px;
-    font-size: 3.16667rem;
-    margin-bottom: 0.52105rem;
+    font-size: 57.33333px;
+    font-size: 3.58333rem;
+    margin-bottom: 0.46047rem;
   }
 
   h2 {
-    font-size: 45.6px;
-    font-size: 2.53333rem;
-    margin-bottom: 0.65132rem;
+    font-size: 45.86667px;
+    font-size: 2.86667rem;
+    margin-bottom: 0.57558rem;
   }
 
   h3 {
-    font-size: 34.2px;
-    font-size: 1.9rem;
-    margin-bottom: 0.86842rem;
+    font-size: 34.4px;
+    font-size: 2.15rem;
+    margin-bottom: 0.76744rem;
   }
 
   h4 {
-    font-size: 22.8px;
-    font-size: 1.26667rem;
-    margin-bottom: 1.30263rem;
+    font-size: 22.93333px;
+    font-size: 1.43333rem;
+    margin-bottom: 1.15116rem;
   }
 
   h5 {
-    font-size: 19.95px;
-    font-size: 1.10833rem;
-    margin-bottom: 1.48872rem;
+    font-size: 20.06667px;
+    font-size: 1.25417rem;
+    margin-bottom: 1.31561rem;
   }
 
   h6 {
-    font-size: 17.1px;
-    font-size: 0.95rem;
-    margin-bottom: 1.73684rem;
+    font-size: 17.2px;
+    font-size: 1.075rem;
+    margin-bottom: 1.53488rem;
   }
 }
-@media (max-width: 65.55556rem) {
+@media (max-width: 61.5rem) {
   h1 {
-    font-size: 57px;
-    font-size: 3.16667rem;
-    margin-bottom: 0.52105rem;
+    font-size: 57.33333px;
+    font-size: 3.58333rem;
+    margin-bottom: 0.46047rem;
   }
 
   h2 {
-    font-size: 45.6px;
-    font-size: 2.53333rem;
-    margin-bottom: 0.65132rem;
+    font-size: 45.86667px;
+    font-size: 2.86667rem;
+    margin-bottom: 0.57558rem;
   }
 
   h3 {
-    font-size: 34.2px;
-    font-size: 1.9rem;
-    margin-bottom: 0.86842rem;
+    font-size: 34.4px;
+    font-size: 2.15rem;
+    margin-bottom: 0.76744rem;
   }
 
   h4 {
-    font-size: 22.8px;
-    font-size: 1.26667rem;
-    margin-bottom: 1.30263rem;
+    font-size: 22.93333px;
+    font-size: 1.43333rem;
+    margin-bottom: 1.15116rem;
   }
 
   h5 {
-    font-size: 19.95px;
-    font-size: 1.10833rem;
-    margin-bottom: 1.48872rem;
+    font-size: 20.06667px;
+    font-size: 1.25417rem;
+    margin-bottom: 1.31561rem;
   }
 
   h6 {
-    font-size: 17.1px;
-    font-size: 0.95rem;
-    margin-bottom: 1.73684rem;
+    font-size: 17.2px;
+    font-size: 1.075rem;
+    margin-bottom: 1.53488rem;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 928px) {
   h1 {
-    font-size: 54px;
-    font-size: 3rem;
-    margin-bottom: 0.55rem;
+    font-size: 54.66667px;
+    font-size: 3.41667rem;
+    margin-bottom: 0.48293rem;
   }
 
   h2 {
-    font-size: 43.2px;
-    font-size: 2.4rem;
-    margin-bottom: 0.6875rem;
+    font-size: 43.73333px;
+    font-size: 2.73333rem;
+    margin-bottom: 0.60366rem;
   }
 
   h3 {
-    font-size: 32.4px;
-    font-size: 1.8rem;
-    margin-bottom: 0.91667rem;
+    font-size: 32.8px;
+    font-size: 2.05rem;
+    margin-bottom: 0.80488rem;
   }
 
   h4 {
-    font-size: 21.6px;
-    font-size: 1.2rem;
-    margin-bottom: 1.375rem;
+    font-size: 21.86667px;
+    font-size: 1.36667rem;
+    margin-bottom: 1.20732rem;
   }
 
   h5 {
-    font-size: 18.9px;
-    font-size: 1.05rem;
-    margin-bottom: 1.57143rem;
+    font-size: 19.13333px;
+    font-size: 1.19583rem;
+    margin-bottom: 1.37979rem;
   }
 
   h6 {
-    font-size: 16.2px;
-    font-size: 0.9rem;
-    margin-bottom: 1.83333rem;
+    font-size: 16.4px;
+    font-size: 1.025rem;
+    margin-bottom: 1.60976rem;
   }
 }
-@media (max-width: 61.11111rem) {
+@media (max-width: 58rem) {
   h1 {
-    font-size: 54px;
-    font-size: 3rem;
-    margin-bottom: 0.55rem;
+    font-size: 54.66667px;
+    font-size: 3.41667rem;
+    margin-bottom: 0.48293rem;
   }
 
   h2 {
-    font-size: 43.2px;
-    font-size: 2.4rem;
-    margin-bottom: 0.6875rem;
+    font-size: 43.73333px;
+    font-size: 2.73333rem;
+    margin-bottom: 0.60366rem;
   }
 
   h3 {
-    font-size: 32.4px;
-    font-size: 1.8rem;
-    margin-bottom: 0.91667rem;
+    font-size: 32.8px;
+    font-size: 2.05rem;
+    margin-bottom: 0.80488rem;
   }
 
   h4 {
-    font-size: 21.6px;
-    font-size: 1.2rem;
-    margin-bottom: 1.375rem;
+    font-size: 21.86667px;
+    font-size: 1.36667rem;
+    margin-bottom: 1.20732rem;
   }
 
   h5 {
-    font-size: 18.9px;
-    font-size: 1.05rem;
-    margin-bottom: 1.57143rem;
+    font-size: 19.13333px;
+    font-size: 1.19583rem;
+    margin-bottom: 1.37979rem;
   }
 
   h6 {
-    font-size: 16.2px;
-    font-size: 0.9rem;
-    margin-bottom: 1.83333rem;
+    font-size: 16.4px;
+    font-size: 1.025rem;
+    margin-bottom: 1.60976rem;
   }
 }
-@media (max-width: 1020px) {
+@media (max-width: 872px) {
   h1 {
-    font-size: 51px;
-    font-size: 2.83333rem;
-    margin-bottom: 0.58235rem;
+    font-size: 52px;
+    font-size: 3.25rem;
+    margin-bottom: 0.50769rem;
   }
 
   h2 {
-    font-size: 40.8px;
-    font-size: 2.26667rem;
-    margin-bottom: 0.72794rem;
+    font-size: 41.6px;
+    font-size: 2.6rem;
+    margin-bottom: 0.63462rem;
   }
 
   h3 {
-    font-size: 30.6px;
-    font-size: 1.7rem;
-    margin-bottom: 0.97059rem;
-  }
-
-  h4 {
-    font-size: 20.4px;
-    font-size: 1.13333rem;
-    margin-bottom: 1.45588rem;
-  }
-
-  h5 {
-    font-size: 17.85px;
-    font-size: 0.99167rem;
-    margin-bottom: 1.66387rem;
-  }
-
-  h6 {
-    font-size: 15.3px;
-    font-size: 0.85rem;
-    margin-bottom: 1.94118rem;
-  }
-}
-@media (max-width: 56.66667rem) {
-  h1 {
-    font-size: 51px;
-    font-size: 2.83333rem;
-    margin-bottom: 0.58235rem;
-  }
-
-  h2 {
-    font-size: 40.8px;
-    font-size: 2.26667rem;
-    margin-bottom: 0.72794rem;
-  }
-
-  h3 {
-    font-size: 30.6px;
-    font-size: 1.7rem;
-    margin-bottom: 0.97059rem;
-  }
-
-  h4 {
-    font-size: 20.4px;
-    font-size: 1.13333rem;
-    margin-bottom: 1.45588rem;
-  }
-
-  h5 {
-    font-size: 17.85px;
-    font-size: 0.99167rem;
-    margin-bottom: 1.66387rem;
-  }
-
-  h6 {
-    font-size: 15.3px;
-    font-size: 0.85rem;
-    margin-bottom: 1.94118rem;
-  }
-}
-@media (max-width: 940px) {
-  h1 {
-    font-size: 48px;
-    font-size: 2.66667rem;
-    margin-bottom: 0.61875rem;
-  }
-
-  h2 {
-    font-size: 38.4px;
-    font-size: 2.13333rem;
-    margin-bottom: 0.77344rem;
-  }
-
-  h3 {
-    font-size: 28.8px;
-    font-size: 1.6rem;
-    margin-bottom: 1.03125rem;
-  }
-
-  h4 {
-    font-size: 19.2px;
-    font-size: 1.06667rem;
-    margin-bottom: 1.54687rem;
-  }
-
-  h5 {
-    font-size: 16.8px;
-    font-size: 0.93333rem;
-    margin-bottom: 1.76786rem;
-  }
-
-  h6 {
-    font-size: 14.4px;
-    font-size: 0.8rem;
-    margin-bottom: 2.0625rem;
-  }
-}
-@media (max-width: 52.22222rem) {
-  h1 {
-    font-size: 48px;
-    font-size: 2.66667rem;
-    margin-bottom: 0.61875rem;
-  }
-
-  h2 {
-    font-size: 38.4px;
-    font-size: 2.13333rem;
-    margin-bottom: 0.77344rem;
-  }
-
-  h3 {
-    font-size: 28.8px;
-    font-size: 1.6rem;
-    margin-bottom: 1.03125rem;
-  }
-
-  h4 {
-    font-size: 19.2px;
-    font-size: 1.06667rem;
-    margin-bottom: 1.54687rem;
-  }
-
-  h5 {
-    font-size: 16.8px;
-    font-size: 0.93333rem;
-    margin-bottom: 1.76786rem;
-  }
-
-  h6 {
-    font-size: 14.4px;
-    font-size: 0.8rem;
-    margin-bottom: 2.0625rem;
-  }
-}
-@media (max-width: 860px) {
-  h1 {
-    font-size: 45px;
-    font-size: 2.5rem;
-    margin-bottom: 0.66rem;
-  }
-
-  h2 {
-    font-size: 36px;
-    font-size: 2rem;
-    margin-bottom: 0.825rem;
-  }
-
-  h3 {
-    font-size: 27px;
-    font-size: 1.5rem;
-    margin-bottom: 1.1rem;
-  }
-
-  h4 {
-    font-size: 18px;
-    font-size: 1rem;
-    margin-bottom: 1.65rem;
-  }
-
-  h5 {
-    font-size: 15.75px;
-    font-size: 0.875rem;
-    margin-bottom: 1.88571rem;
-  }
-
-  h6 {
-    font-size: 13.5px;
-    font-size: 0.75rem;
-    margin-bottom: 2.2rem;
-  }
-}
-@media (max-width: 47.77778rem) {
-  h1 {
-    font-size: 45px;
-    font-size: 2.5rem;
-    margin-bottom: 0.66rem;
-  }
-
-  h2 {
-    font-size: 36px;
-    font-size: 2rem;
-    margin-bottom: 0.825rem;
-  }
-
-  h3 {
-    font-size: 27px;
-    font-size: 1.5rem;
-    margin-bottom: 1.1rem;
-  }
-
-  h4 {
-    font-size: 18px;
-    font-size: 1rem;
-    margin-bottom: 1.65rem;
-  }
-
-  h5 {
-    font-size: 15.75px;
-    font-size: 0.875rem;
-    margin-bottom: 1.88571rem;
-  }
-
-  h6 {
-    font-size: 13.5px;
-    font-size: 0.75rem;
-    margin-bottom: 2.2rem;
-  }
-}
-@media (max-width: 780px) {
-  h1 {
-    font-size: 42px;
-    font-size: 2.33333rem;
-    margin-bottom: 0.70714rem;
-  }
-
-  h2 {
-    font-size: 33.6px;
-    font-size: 1.86667rem;
-    margin-bottom: 0.88393rem;
-  }
-
-  h3 {
-    font-size: 25.2px;
-    font-size: 1.4rem;
-    margin-bottom: 1.17857rem;
-  }
-
-  h4 {
-    font-size: 16.8px;
-    font-size: 0.93333rem;
-    margin-bottom: 1.76786rem;
-  }
-
-  h5 {
-    font-size: 14.7px;
-    font-size: 0.81667rem;
-    margin-bottom: 2.02041rem;
-  }
-
-  h6 {
-    font-size: 12.6px;
-    font-size: 0.7rem;
-    margin-bottom: 2.35714rem;
-  }
-}
-@media (max-width: 43.33333rem) {
-  h1 {
-    font-size: 42px;
-    font-size: 2.33333rem;
-    margin-bottom: 0.70714rem;
-  }
-
-  h2 {
-    font-size: 33.6px;
-    font-size: 1.86667rem;
-    margin-bottom: 0.88393rem;
-  }
-
-  h3 {
-    font-size: 25.2px;
-    font-size: 1.4rem;
-    margin-bottom: 1.17857rem;
-  }
-
-  h4 {
-    font-size: 16.8px;
-    font-size: 0.93333rem;
-    margin-bottom: 1.76786rem;
-  }
-
-  h5 {
-    font-size: 14.7px;
-    font-size: 0.81667rem;
-    margin-bottom: 2.02041rem;
-  }
-
-  h6 {
-    font-size: 12.6px;
-    font-size: 0.7rem;
-    margin-bottom: 2.35714rem;
-  }
-}
-@media (max-width: 700px) {
-  h1 {
-    font-size: 39.0px;
-    font-size: 2.16667rem;
-    margin-bottom: 0.76154rem;
-  }
-
-  h2 {
     font-size: 31.2px;
-    font-size: 1.73333rem;
-    margin-bottom: 0.95192rem;
+    font-size: 1.95rem;
+    margin-bottom: 0.84615rem;
   }
 
-  h3 {
-    font-size: 23.4px;
+  h4 {
+    font-size: 20.8px;
     font-size: 1.3rem;
     margin-bottom: 1.26923rem;
   }
 
-  h4 {
-    font-size: 15.6px;
-    font-size: 0.86667rem;
-    margin-bottom: 1.90385rem;
-  }
-
   h5 {
-    font-size: 13.65px;
-    font-size: 0.75833rem;
-    margin-bottom: 2.17582rem;
+    font-size: 18.2px;
+    font-size: 1.1375rem;
+    margin-bottom: 1.45055rem;
   }
 
   h6 {
-    font-size: 11.7px;
-    font-size: 0.65rem;
-    margin-bottom: 2.53846rem;
+    font-size: 15.6px;
+    font-size: 0.975rem;
+    margin-bottom: 1.69231rem;
   }
 }
-@media (max-width: 38.88889rem) {
+@media (max-width: 54.5rem) {
   h1 {
-    font-size: 39.0px;
-    font-size: 2.16667rem;
-    margin-bottom: 0.76154rem;
+    font-size: 52px;
+    font-size: 3.25rem;
+    margin-bottom: 0.50769rem;
   }
 
   h2 {
-    font-size: 31.2px;
-    font-size: 1.73333rem;
-    margin-bottom: 0.95192rem;
+    font-size: 41.6px;
+    font-size: 2.6rem;
+    margin-bottom: 0.63462rem;
   }
 
   h3 {
-    font-size: 23.4px;
+    font-size: 31.2px;
+    font-size: 1.95rem;
+    margin-bottom: 0.84615rem;
+  }
+
+  h4 {
+    font-size: 20.8px;
     font-size: 1.3rem;
     margin-bottom: 1.26923rem;
   }
 
-  h4 {
+  h5 {
+    font-size: 18.2px;
+    font-size: 1.1375rem;
+    margin-bottom: 1.45055rem;
+  }
+
+  h6 {
     font-size: 15.6px;
-    font-size: 0.86667rem;
-    margin-bottom: 1.90385rem;
+    font-size: 0.975rem;
+    margin-bottom: 1.69231rem;
+  }
+}
+@media (max-width: 816px) {
+  h1 {
+    font-size: 49.33333px;
+    font-size: 3.08333rem;
+    margin-bottom: 0.53514rem;
+  }
+
+  h2 {
+    font-size: 39.46667px;
+    font-size: 2.46667rem;
+    margin-bottom: 0.66892rem;
+  }
+
+  h3 {
+    font-size: 29.6px;
+    font-size: 1.85rem;
+    margin-bottom: 0.89189rem;
+  }
+
+  h4 {
+    font-size: 19.73333px;
+    font-size: 1.23333rem;
+    margin-bottom: 1.33784rem;
   }
 
   h5 {
-    font-size: 13.65px;
-    font-size: 0.75833rem;
-    margin-bottom: 2.17582rem;
+    font-size: 17.26667px;
+    font-size: 1.07917rem;
+    margin-bottom: 1.52896rem;
   }
 
   h6 {
-    font-size: 11.7px;
-    font-size: 0.65rem;
-    margin-bottom: 2.53846rem;
+    font-size: 14.8px;
+    font-size: 0.925rem;
+    margin-bottom: 1.78378rem;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 51rem) {
+  h1 {
+    font-size: 49.33333px;
+    font-size: 3.08333rem;
+    margin-bottom: 0.53514rem;
+  }
+
+  h2 {
+    font-size: 39.46667px;
+    font-size: 2.46667rem;
+    margin-bottom: 0.66892rem;
+  }
+
+  h3 {
+    font-size: 29.6px;
+    font-size: 1.85rem;
+    margin-bottom: 0.89189rem;
+  }
+
+  h4 {
+    font-size: 19.73333px;
+    font-size: 1.23333rem;
+    margin-bottom: 1.33784rem;
+  }
+
+  h5 {
+    font-size: 17.26667px;
+    font-size: 1.07917rem;
+    margin-bottom: 1.52896rem;
+  }
+
+  h6 {
+    font-size: 14.8px;
+    font-size: 0.925rem;
+    margin-bottom: 1.78378rem;
+  }
+}
+@media (max-width: 760px) {
+  h1 {
+    font-size: 46.66667px;
+    font-size: 2.91667rem;
+    margin-bottom: 0.56571rem;
+  }
+
+  h2 {
+    font-size: 37.33333px;
+    font-size: 2.33333rem;
+    margin-bottom: 0.70714rem;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin-bottom: 0.94286rem;
+  }
+
+  h4 {
+    font-size: 18.66667px;
+    font-size: 1.16667rem;
+    margin-bottom: 1.41429rem;
+  }
+
+  h5 {
+    font-size: 16.33333px;
+    font-size: 1.02083rem;
+    margin-bottom: 1.61633rem;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 1.88571rem;
+  }
+}
+@media (max-width: 47.5rem) {
+  h1 {
+    font-size: 46.66667px;
+    font-size: 2.91667rem;
+    margin-bottom: 0.56571rem;
+  }
+
+  h2 {
+    font-size: 37.33333px;
+    font-size: 2.33333rem;
+    margin-bottom: 0.70714rem;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin-bottom: 0.94286rem;
+  }
+
+  h4 {
+    font-size: 18.66667px;
+    font-size: 1.16667rem;
+    margin-bottom: 1.41429rem;
+  }
+
+  h5 {
+    font-size: 16.33333px;
+    font-size: 1.02083rem;
+    margin-bottom: 1.61633rem;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 1.88571rem;
+  }
+}
+@media (max-width: 704px) {
+  h1 {
+    font-size: 44px;
+    font-size: 2.75rem;
+    margin-bottom: 0.6rem;
+  }
+
+  h2 {
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    font-size: 26.4px;
+    font-size: 1.65rem;
+    margin-bottom: 1.0rem;
+  }
+
+  h4 {
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h5 {
+    font-size: 15.4px;
+    font-size: 0.9625rem;
+    margin-bottom: 1.71429rem;
+  }
+
+  h6 {
+    font-size: 13.2px;
+    font-size: 0.825rem;
+    margin-bottom: 2.0rem;
+  }
+}
+@media (max-width: 44rem) {
+  h1 {
+    font-size: 44px;
+    font-size: 2.75rem;
+    margin-bottom: 0.6rem;
+  }
+
+  h2 {
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    font-size: 26.4px;
+    font-size: 1.65rem;
+    margin-bottom: 1.0rem;
+  }
+
+  h4 {
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h5 {
+    font-size: 15.4px;
+    font-size: 0.9625rem;
+    margin-bottom: 1.71429rem;
+  }
+
+  h6 {
+    font-size: 13.2px;
+    font-size: 0.825rem;
+    margin-bottom: 2.0rem;
+  }
+}
+@media (max-width: 648px) {
+  h1 {
+    font-size: 41.33333px;
+    font-size: 2.58333rem;
+    margin-bottom: 0.63871rem;
+  }
+
+  h2 {
+    font-size: 33.06667px;
+    font-size: 2.06667rem;
+    margin-bottom: 0.79839rem;
+  }
+
+  h3 {
+    font-size: 24.8px;
+    font-size: 1.55rem;
+    margin-bottom: 1.06452rem;
+  }
+
+  h4 {
+    font-size: 16.53333px;
+    font-size: 1.03333rem;
+    margin-bottom: 1.59677rem;
+  }
+
+  h5 {
+    font-size: 14.46667px;
+    font-size: 0.90417rem;
+    margin-bottom: 1.82488rem;
+  }
+
+  h6 {
+    font-size: 12.4px;
+    font-size: 0.775rem;
+    margin-bottom: 2.12903rem;
+  }
+}
+@media (max-width: 40.5rem) {
+  h1 {
+    font-size: 41.33333px;
+    font-size: 2.58333rem;
+    margin-bottom: 0.63871rem;
+  }
+
+  h2 {
+    font-size: 33.06667px;
+    font-size: 2.06667rem;
+    margin-bottom: 0.79839rem;
+  }
+
+  h3 {
+    font-size: 24.8px;
+    font-size: 1.55rem;
+    margin-bottom: 1.06452rem;
+  }
+
+  h4 {
+    font-size: 16.53333px;
+    font-size: 1.03333rem;
+    margin-bottom: 1.59677rem;
+  }
+
+  h5 {
+    font-size: 14.46667px;
+    font-size: 0.90417rem;
+    margin-bottom: 1.82488rem;
+  }
+
+  h6 {
+    font-size: 12.4px;
+    font-size: 0.775rem;
+    margin-bottom: 2.12903rem;
+  }
+}
+@media (max-width: 592px) {
+  h1 {
+    font-size: 38.66667px;
+    font-size: 2.41667rem;
+    margin-bottom: 0.68276rem;
+  }
+
+  h2 {
+    font-size: 30.93333px;
+    font-size: 1.93333rem;
+    margin-bottom: 0.85345rem;
+  }
+
+  h3 {
+    font-size: 23.2px;
+    font-size: 1.45rem;
+    margin-bottom: 1.13793rem;
+  }
+
+  h4 {
+    font-size: 15.46667px;
+    font-size: 0.96667rem;
+    margin-bottom: 1.7069rem;
+  }
+
+  h5 {
+    font-size: 13.53333px;
+    font-size: 0.84583rem;
+    margin-bottom: 1.95074rem;
+  }
+
+  h6 {
+    font-size: 11.6px;
+    font-size: 0.725rem;
+    margin-bottom: 2.27586rem;
+  }
+}
+@media (max-width: 37rem) {
+  h1 {
+    font-size: 38.66667px;
+    font-size: 2.41667rem;
+    margin-bottom: 0.68276rem;
+  }
+
+  h2 {
+    font-size: 30.93333px;
+    font-size: 1.93333rem;
+    margin-bottom: 0.85345rem;
+  }
+
+  h3 {
+    font-size: 23.2px;
+    font-size: 1.45rem;
+    margin-bottom: 1.13793rem;
+  }
+
+  h4 {
+    font-size: 15.46667px;
+    font-size: 0.96667rem;
+    margin-bottom: 1.7069rem;
+  }
+
+  h5 {
+    font-size: 13.53333px;
+    font-size: 0.84583rem;
+    margin-bottom: 1.95074rem;
+  }
+
+  h6 {
+    font-size: 11.6px;
+    font-size: 0.725rem;
+    margin-bottom: 2.27586rem;
+  }
+}
+@media (max-width: 536px) {
   h1 {
     font-size: 36px;
-    font-size: 2rem;
-    margin-bottom: 0.825rem;
+    font-size: 2.25rem;
+    margin-bottom: 0.73333rem;
   }
 
   h2 {
     font-size: 28.8px;
-    font-size: 1.6rem;
-    margin-bottom: 1.03125rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.91667rem;
   }
 
   h3 {
     font-size: 21.6px;
-    font-size: 1.2rem;
-    margin-bottom: 1.375rem;
+    font-size: 1.35rem;
+    margin-bottom: 1.22222rem;
   }
 
   h4 {
     font-size: 14.4px;
-    font-size: 0.8rem;
-    margin-bottom: 2.0625rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.83333rem;
   }
 
   h5 {
     font-size: 12.6px;
-    font-size: 0.7rem;
-    margin-bottom: 2.35714rem;
+    font-size: 0.7875rem;
+    margin-bottom: 2.09524rem;
   }
 
   h6 {
     font-size: 10.8px;
-    font-size: 0.6rem;
-    margin-bottom: 2.75rem;
+    font-size: 0.675rem;
+    margin-bottom: 2.44444rem;
   }
 }
-@media (max-width: 34.44444rem) {
+@media (max-width: 33.5rem) {
   h1 {
     font-size: 36px;
-    font-size: 2rem;
-    margin-bottom: 0.825rem;
+    font-size: 2.25rem;
+    margin-bottom: 0.73333rem;
   }
 
   h2 {
     font-size: 28.8px;
-    font-size: 1.6rem;
-    margin-bottom: 1.03125rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.91667rem;
   }
 
   h3 {
     font-size: 21.6px;
-    font-size: 1.2rem;
-    margin-bottom: 1.375rem;
+    font-size: 1.35rem;
+    margin-bottom: 1.22222rem;
   }
 
   h4 {
     font-size: 14.4px;
-    font-size: 0.8rem;
-    margin-bottom: 2.0625rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.83333rem;
   }
 
   h5 {
     font-size: 12.6px;
-    font-size: 0.7rem;
-    margin-bottom: 2.35714rem;
+    font-size: 0.7875rem;
+    margin-bottom: 2.09524rem;
   }
 
   h6 {
     font-size: 10.8px;
-    font-size: 0.6rem;
-    margin-bottom: 2.75rem;
+    font-size: 0.675rem;
+    margin-bottom: 2.44444rem;
   }
 }
-.body {
-  max-width: 52em;
-  margin-right: 36px;
-  margin-right: 2rem;
-  /*  span.photo:nth-child(odd) img {
-      float: right;
-      display: inline-block;
-      margin: 0 0 .5em 1em;
-    }
-  
-    span.photo:nth-child(even) img {
-      display: inline-block;
-      float: left;
-      margin: 0 1em .5em 0;
-    }*/
-}
-.body p + p {
-  margin-top: 0;
-}
-.body p {
-  margin-bottom: .62em;
-}
-.body span.photo {
-  padding-bottom: 2%;
-  background-image: -webkit-radial-gradient( #999999 5%, transparent 55%);
-  background-image: radial-gradient(   #999999 5%, transparent 55%);
-  background-position: center bottom;
-  background-size: 100% 4em;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 38%;
-}
-.body span.photo:nth-child(odd) {
-  float: right;
-  margin: 0 0 .5em 1em;
-}
-.body span.photo:nth-child(even) {
-  float: left;
-  margin: 0 1em .5em 0;
-}
-.body span.photo img {
-  background-color: #d5e14d;
-  background-image: -webkit-gradient(linear, #ffc423 100%, left bottom, color-stop(6%, #d5e14d), color-stop(6%, #ffc423), color-stop(7%, #ffc423), color-stop(7%, #d5e14d), color-stop(18%, #d5e14d), color-stop(18%, #ffc423), color-stop(19%, #ffc423), color-stop(19%, #d5e14d), color-stop(25%, #d5e14d), color-stop(25%, #ffc423));
-  background-image: -webkit-linear-gradient(-405deg, #d5e14d 6%, #ffc423 6%, #ffc423 7%, #d5e14d 7%, #d5e14d 18%, #ffc423 18%, #ffc423 19%, #d5e14d 19%, #d5e14d 25%, #ffc423 25%);
-  background-image: linear-gradient(135deg,#d5e14d 6%, #ffc423 6%, #ffc423 7%, #d5e14d 7%, #d5e14d 18%, #ffc423 18%, #ffc423 19%, #d5e14d 19%, #d5e14d 25%, #ffc423 25%);
-  padding: 2% 2% 2% 8%;
-  width: 100%;
-  border-radius: 2%;
-}
-
-* {
+aside#sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 320px;
+  width: 20rem;
+  padding: 32px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: fixed;
+  height: 100%;
 }
-
-header#site-header {
-  background-color: #0082c8;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(62%, #0082c8), color-stop(62%, transparent));
-  background-image: -webkit-linear-gradient(top, #0082c8 62%, transparent 62%);
-  background-image: linear-gradient(to bottom,#0082c8 62%, transparent 62%);
-  *zoom: 1;
-  position: relative;
-  background-color: transparent;
-}
-header#site-header:before, header#site-header:after {
-  content: " ";
-  display: table;
-}
-header#site-header:after {
-  clear: both;
-}
-header#site-header a#logo {
-  display: block;
-  width: 18%;
-  float: left;
-  position: relative;
-  z-index: 5;
-}
-header#site-header a#logo img {
-  width: 100%;
-}
-header#site-header nav#main-nav {
-  display: block;
-  border-bottom: 3px solid #0082c8;
-  width: 100%;
-  position: absolute;
-  top: 40%;
+aside#sidebar a {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.38s ease-out;
+  -moz-transition: all 0.38s ease-out;
+  transition: all 0.38s ease-out;
   overflow: hidden;
-  box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.38);
-  background-color: #f7f7f7;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #dddddd));
-  background-image: -webkit-linear-gradient(top, #f7f7f7, #dddddd);
-  background-image: linear-gradient(to bottom,#f7f7f7, #dddddd);
-}
-header#site-header nav#main-nav ul {
-  margin: 0;
-  padding: 0;
-}
-header#site-header nav#main-nav ul li {
-  margin: 0;
-  padding: 0;
-  display: block;
-  float: left;
-  list-style: none;
-  position: relative;
-  z-index: 1;
-  vertical-align: middle;
-}
-header#site-header nav#main-nav ul li span.color {
-  background-color: #0082c8;
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 0;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-header#site-header nav#main-nav ul li.placeholder {
-  width: 9%;
-  height: 100%;
-}
-header#site-header nav#main-nav ul li.placeholder span.color {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.38);
-}
-header#site-header nav#main-nav ul li.placeholder div {
-  padding: .25em 1em 0 1em;
-  font-size: 28.8px;
-  font-size: 1.6rem;
-}
-header#site-header nav#main-nav ul li.first {
-  /*span.color {
-    padding-left: 2%;
-  }*/
-}
-header#site-header nav#main-nav ul li.first a {
-  padding-left: 6em;
-}
-header#site-header nav#main-nav ul li:hover span.color, header#site-header nav#main-nav ul li.active-trail span.color {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.38);
-}
-header#site-header nav#main-nav ul li:hover span.color a, header#site-header nav#main-nav ul li.active-trail span.color a {
   color: white;
-}
-header#site-header nav#main-nav ul li a {
-  display: block;
-  padding: .25em 1em 0 1em;
   text-decoration: none;
-  background-color: transparent;
-  color: #efaf00;
-  z-index: 1;
-  position: relative;
-  font-family: Chalet, sans-serif;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  transition: color 0.2s;
-  font-size: 28.8px;
-  font-size: 1.6rem;
+  display: block;
 }
-header#site-header nav#main-nav ul li a:hover, header#site-header nav#main-nav ul li a:active, header#site-header nav#main-nav ul li a.active {
-  color: white;
+aside#sidebar a:hover {
+  color: #255e8d;
+  text-decoration: underline;
+}
+aside#sidebar a:hover span {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+aside#sidebar a span {
+  -webkit-transform: translateX(-1em);
+  -moz-transform: translateX(-1em);
+  -ms-transform: translateX(-1em);
+  -o-transform: translateX(-1em);
+  transform: translateX(-1em);
+  -webkit-transition: all 0.38s ease-out;
+  -moz-transition: all 0.38s ease-out;
+  transition: all 0.38s ease-out;
+  display: block;
+}
+aside#sidebar a i {
+  width: 1em;
+  margin-right: 0;
+}
+aside#sidebar ul.menu {
+  padding-left: 0;
+}
+@media (max-width: 800px) {
+  aside#sidebar {
+    padding: 16px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 50rem) {
+  aside#sidebar {
+    padding: 16px;
+    padding: 1rem;
+  }
 }
 
-footer#site-footer {
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.8);
+@media (max-width: 1040px) {
+  aside#sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+@media (max-width: 65rem) {
+  aside#sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+section#main {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 320px;
+  margin-left: 20rem;
+  padding: 32px;
+  padding: 2rem;
+  max-width: 52em;
+}
+section#main a {
+  -webkit-transition: all 0.38s ease-out;
+  -moz-transition: all 0.38s ease-out;
+  transition: all 0.38s ease-out;
+  color: #c58805;
+  text-decoration: none;
+}
+section#main a:hover, section#main a:active, section#main a.active {
+  color: #936604;
+  text-decoration: underline;
+}
+section#main article header .byline {
+  color: #777;
+}
+section#main article header .byline i {
+  color: #c58805;
+  padding: 0 .5em;
+}
+section#main article .body {
+  font-family: "Kaushan Script", cursive;
+  margin: 1em 0 0 0;
+}
+section#main article .body p + p {
+  margin-top: -1em;
+}
+section#main article .body img {
+  border: 1px solid #444;
+  padding: 2px;
+  border-radius: .5em;
+  width: 38%;
+}
+section#main article .body img:nth-child(odd) {
+  float: right;
+  margin: 0 0 1em 2em;
+}
+section#main article .body img:nth-child(even) {
+  float: left;
+  margin: 0 2em 1em 0;
+}
+section#main article .body img.center {
+  float: none;
+  display: block;
+  margin: 1em auto;
+  width: auto;
+  max-width: 90%;
+}
+@media (max-width: 800px) {
+  section#main {
+    padding: 16px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 50rem) {
+  section#main {
+    padding: 16px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  section#main {
+    margin-left: 0;
+  }
+}
+@media (max-width: 65rem) {
+  section#main {
+    margin-left: 0;
+  }
 }

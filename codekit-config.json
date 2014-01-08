@@ -86,6 +86,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_scss\/orion\/_test\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/_scss\/orion\/_test\/mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -97,6 +106,15 @@
       "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_scss\/gonzo\/gonzo.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/gonzo\/gonzo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_jade\/nrelcomm\/index.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -185,6 +203,15 @@
       "outputAbbreviatedPath" : "\/_scss\/gonzo\/gonzo.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_scss\/nrelcomm\/nrelcomm.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/nrelcomm.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/nrelcomm\/nrelcomm.css" : {
       "ignoreWasSetByUser" : 0,
@@ -296,15 +323,15 @@
       "outputAbbreviatedPath" : "\/nrelcomm\/nrelcomm.min.js",
       "fileType" : 64
     },
-    "\/_scss\/instep\/components\/_nav.scss" : {
+    "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_nav.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_nav.css",
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -320,17 +347,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
+    "\/_scss\/orion\/_test\/mixins.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_scss\/nrelcomm\/components\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -502,15 +526,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_jade\/includes\/page-head.jade" : {
+    "\/_jade\/includes\/mixins.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/includes\/page-head.jade",
+      "inputAbbreviatedPath" : "\/_jade\/includes\/mixins.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/includes\/page-head.html",
+      "outputAbbreviatedPath" : "\/includes\/mixins.html",
       "fileType" : 512
     },
     "\/_scss\/instep\/instep.scss" : {
@@ -525,16 +549,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_jade\/includes\/mixins.jade" : {
+    "\/_js\/stickyFooter.jquery.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/includes\/mixins.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/includes\/mixins.html",
-      "fileType" : 512
+      "inputAbbreviatedPath" : "\/_js\/stickyFooter.jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
+      "fileType" : 64
     },
     "\/_scss\/gonzo\/components\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -559,16 +583,17 @@
       "outputAbbreviatedPath" : "\/_partials\/contact-form.html",
       "fileType" : 512
     },
-    "\/_js\/stickyFooter.jquery.js" : {
+    "\/_scss\/orion\/_styles.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_js\/stickyFooter.jquery.js",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_styles.scss",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
-      "fileType" : 64
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_scss\/instep\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -594,17 +619,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/_styles.scss" : {
+    "\/_jade\/includes\/page-head.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_styles.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_jade\/includes\/page-head.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/includes\/page-head.html",
+      "fileType" : 512
     },
     "\/_scss\/orion\/styles\/_lists.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -665,6 +689,15 @@
       "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_test\/master.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_scss\/orion\/styles\/_base.scss" : {
       "ignoreWasSetByUser" : 0,

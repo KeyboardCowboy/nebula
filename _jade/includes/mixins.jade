@@ -13,6 +13,8 @@ mixin kitten(width, height, color, classes)
   classes = classes || ''
 
   if color
-    img(src="http://placekitten.com/#{width}/#{height}", alt="Here's a cute kitten.", title="Here's a cute kitten.", class="#{classes}")
+    span.photo
+      img(src="http://placekitten.com/#{width}/#{height}", alt="Here's a cute kitten.", title="Here's a cute kitten.", class="#{classes}")
   else
-    img(src="http://placekitten.com/g/#{width}/#{height}", alt="Here's a cute kitten.", title="Here's a cute kitten.", class="#{classes}")
+    span.photo
+      img(src="http://placekitten.com/g/#{width}/#{height}", alt="Here's a cute kitten.", title="Here's a cute kitten.", class="#{classes}")

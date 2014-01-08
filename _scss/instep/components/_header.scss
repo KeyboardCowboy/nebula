@@ -1,16 +1,16 @@
 header#site-header {
   //@include linear-gradient(top, transparent 40%, $blue 40%, $blue 45%, transparent 45%, transparent 55%, $blue 55%, $blue 60%, transparent 60%, transparent 100%);
   @include linear-gradient(top, $blue 62%, transparent 62%);
+  @include clearfix;
+  position: relative;
   background-color: transparent;
 
   a#logo {
-    @include box-sizing(border-box);
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
     width: 18%;
+    float: left;
     position: relative;
     z-index: 5;
-    margin-right: -5px;
 
     img {
       width: 100%;
@@ -18,14 +18,11 @@ header#site-header {
   }
 
   nav#main-nav {
-    @include box-sizing(border-box);
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 2em;
-    margin-left: -9%;
-    //padding-left: 9%;
+    display: block;
     border-bottom: 3px solid $blue;
-    width: 91%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
     overflow: hidden;
 
     box-shadow: inset 0 2px 5px 0 rgba(0,0,0,.38);
@@ -63,9 +60,38 @@ header#site-header {
           @include transition(all .2s ease-out);
         }
 
-        &:hover span.color {
+        &.placeholder {
+          width: 9%;
+          height: 100%;
+
+          span.color {
+            @include transform(translateY(0));
+            box-shadow: 0 5px 10px 0 rgba(0,0,0,.38);
+          }
+
+          div {
+            padding: .25em 1em 0 1em;
+           @include x-rem(font-size, 1.6);
+          }
+        }
+
+        &.first {
+          //padding-left: 2%;
+
+          /*span.color {
+            padding-left: 2%;
+          }*/
+
+          a {
+            padding-left: 6em;
+          }
+        }
+
+        &:hover span.color, &.active-trail span.color {
           @include transform(translateY(0));
           box-shadow: 0 5px 10px 0 rgba(0,0,0,.38);
+
+          a {color: white;}
         }
 
         a {
@@ -84,12 +110,6 @@ header#site-header {
 
           &:hover, &:active, &.active {
             color: white;
-          }
-        }
-
-        &:first-child {
-          a {
-            padding-left: 6em;
           }
         }
       }
