@@ -2,39 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/_scss\/nrelcomm\/components\/_main-nav.scss" : {
+    "\/_scss\/instep\/instep.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_main-nav.scss",
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/_scss\/instep\/instep.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_main-nav.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/styles\/_typeplate.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_typeplate.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/styles\/_typeplate.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/nrelcomm\/_vars.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/_vars.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/_vars.css",
+      "outputAbbreviatedPath" : "\/instep\/instep.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -50,18 +26,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/mixins\/_ost-typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/_scss\/orion\/mixins\/_ost-drupalqf.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -71,392 +35,6 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-drupalqf.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/mixins\/_ost-styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-styles.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/_test\/styles.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_scss\/orion\/_test\/mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/gonzo\/gonzo.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/gonzo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_jade\/nrelcomm\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/nrelcomm\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/nrelcomm\/index.html",
-      "fileType" : 512
-    },
-    "\/_scss\/instep\/_vars.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/_vars.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/instep\/_vars.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/gonzo\/compass.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/compass.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/compass.min.js",
-      "fileType" : 64
-    },
-    "\/gonzo\/noisy.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/noisy.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/gonzo\/noisy.png",
-      "initialSize" : 21395,
-      "fileType" : 8192
-    },
-    "\/gonzo\/compass-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/compass-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/compass-ck.min.js",
-      "fileType" : 64
-    },
-    "\/instep\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/instep\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/instep\/logo.png",
-      "initialSize" : 10673,
-      "fileType" : 8192
-    },
-    "\/instep\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/instep\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_scss\/gonzo\/gonzo.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/gonzo.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/gonzo\/gonzo.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/nrelcomm\/nrelcomm.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/nrelcomm.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/nrelcomm\/nrelcomm.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/nrelcomm\/nrelcomm.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_jade\/includes\/styleguide-content.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/includes\/styleguide-content.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/includes\/styleguide-content.html",
-      "fileType" : 512
-    },
-    "\/_scss\/orion\/placeholders\/_backgrounds.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/placeholders\/_backgrounds.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/placeholders\/_backgrounds.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/gonzo\/_global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/_global.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/gonzo\/_global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_jade\/nrelcomm\/_vars.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/nrelcomm\/_vars.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/nrelcomm\/_vars.html",
-      "fileType" : 512
-    },
-    "\/js\/stickyFooter.jquery.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.min.js",
-      "fileType" : 64
-    },
-    "\/_scss\/gonzo\/components\/_sidebar.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/components\/_sidebar.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/gonzo\/components\/_sidebar.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/instep\/components\/_base.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_base.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_base.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/gonzo\/gonzo.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/gonzo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/nrelcomm\/nrelcomm.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/nrelcomm\/nrelcomm.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/nrelcomm\/nrelcomm.min.js",
-      "fileType" : 64
-    },
-    "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/_test\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/_test\/mixins.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_scss\/nrelcomm\/components\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_header.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/nrelcomm\/nrelcomm.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/nrelcomm.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/nrelcomm.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_jade\/gonzo\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/_jade\/gonzo\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/gonzo\/index.html",
-      "fileType" : 512
-    },
-    "\/gonzo\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gonzo\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_scss\/orion\/_mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_mixins.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/mixins\/zen-grids\/_zen.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/_zen.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/_zen.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/mixins\/_ost-structure.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-structure.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-structure.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/instep\/components\/_footer.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_footer.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_footer.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/nrelcomm\/components\/_footer.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_footer.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -472,103 +50,50 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/nrelcomm\/_global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/_global.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/_global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/instep\/instep.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/instep\/instep.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_scss\/instep\/components\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_header.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/vars\/_typeplate.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_typeplate.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/vars\/_typeplate.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/nrelcomm\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/nrelcomm\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_jade\/includes\/mixins.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_jade\/includes\/mixins.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/includes\/mixins.html",
-      "fileType" : 512
-    },
-    "\/_scss\/instep\/instep.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/instep.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/instep\/instep.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_js\/stickyFooter.jquery.js" : {
+    "\/_scss\/orion\/_test\/master.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_js\/stickyFooter.jquery.js",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.scss",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
-      "fileType" : 64
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/_scss\/gonzo\/components\/_main.scss" : {
+    "\/_scss\/orion\/styles\/_typeplate.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/components\/_main.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_typeplate.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/gonzo\/components\/_main.css",
+      "outputAbbreviatedPath" : "\/_scss\/orion\/styles\/_typeplate.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/instep\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/instep\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/instep\/logo.png",
+      "initialSize" : 10673,
+      "fileType" : 8192
+    },
+    "\/_scss\/instep\/_vars.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/instep\/_vars.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/instep\/_vars.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -583,39 +108,15 @@
       "outputAbbreviatedPath" : "\/_partials\/contact-form.html",
       "fileType" : 512
     },
-    "\/_scss\/orion\/_styles.scss" : {
+    "\/_scss\/instep\/components\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_styles.scss",
+      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_header.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/instep\/_global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/instep\/_global.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/instep\/_global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.css",
+      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_header.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -630,39 +131,157 @@
       "outputAbbreviatedPath" : "\/includes\/page-head.html",
       "fileType" : 512
     },
-    "\/_scss\/orion\/styles\/_lists.scss" : {
+    "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_lists.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/styles\/_lists.css",
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/zen\/_grids.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/vars\/_variables.scss" : {
+    "\/_scss\/orion\/_test\/mixins.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/stickyFooter.jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.min.js",
+      "fileType" : 64
+    },
+    "\/_scss\/orion\/vars\/_typeplate.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_typeplate.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.css",
+      "outputAbbreviatedPath" : "\/_scss\/orion\/vars\/_typeplate.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/gonzo\/_vars.scss" : {
+    "\/_scss\/orion\/mixins\/_ost-styles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/gonzo\/_vars.scss",
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-styles.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/gonzo\/_vars.css",
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_mixins.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_mixins.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_test\/master.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_scss\/instep\/_global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/instep\/_global.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/instep\/_global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/instep\/components\/_footer.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_footer.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_footer.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/instep\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/instep\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_jade\/includes\/mixins.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_jade\/includes\/mixins.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/includes\/mixins.html",
+      "fileType" : 512
+    },
+    "\/_scss\/orion\/_test\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_test\/styles.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_scss\/orion\/mixins\/_ost-interaction.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-interaction.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -678,26 +297,51 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/_test\/master.scss" : {
+    "\/_js\/stickyFooter.jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.scss",
+      "inputAbbreviatedPath" : "\/_js\/stickyFooter.jquery.js",
       "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/stickyFooter.jquery.min.js",
+      "fileType" : 64
     },
-    "\/_scss\/orion\/_test\/master.css" : {
+    "\/_jade\/includes\/styleguide-content.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/_jade\/includes\/styleguide-content.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/includes\/styleguide-content.html",
+      "fileType" : 512
+    },
+    "\/_scss\/orion\/mixins\/_ost-typography.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-typography.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/placeholders\/_backgrounds.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/placeholders\/_backgrounds.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/placeholders\/_backgrounds.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_scss\/orion\/styles\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -708,6 +352,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/_scss\/orion\/styles\/_base.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_styles.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -722,6 +378,54 @@
       "outputAbbreviatedPath" : "\/instep\/index.html",
       "fileType" : 512
     },
+    "\/_scss\/orion\/styles\/_lists.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/styles\/_lists.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/styles\/_lists.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/instep\/components\/_base.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/instep\/components\/_base.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/instep\/components\/_base.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_test\/mixins.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/_test\/mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/vars\/_variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/_scss\/orion\/styles\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -734,15 +438,36 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/nrelcomm\/components\/_main.scss" : {
+    "\/instep\/instep.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_main.scss",
+      "inputAbbreviatedPath" : "\/instep\/instep.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_scss\/orion\/mixins\/_ost-structure.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-structure.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/nrelcomm\/components\/_main.css",
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-structure.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/mixins\/zen-grids\/_zen.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/_zen.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/zen-grids\/_zen.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
