@@ -199,15 +199,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/_test\/master.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/_scss\/instep\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -219,6 +210,15 @@
       "outputAbbreviatedPath" : "\/_scss\/instep\/_global.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_scss\/orion\/_test\/master.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/_test\/master.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_scss\/instep\/components\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -414,17 +414,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_scss\/orion\/vars\/_variables.scss" : {
+    "\/instep\/instep.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/instep\/instep.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_scss\/orion\/styles\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -438,15 +435,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/instep\/instep.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/instep\/instep.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/_scss\/orion\/mixins\/_ost-structure.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -456,6 +444,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/_scss\/orion\/mixins\/_ost-structure.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_scss\/orion\/vars\/_variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/_scss\/orion\/vars\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },

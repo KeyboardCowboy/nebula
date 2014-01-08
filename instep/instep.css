@@ -1497,7 +1497,7 @@ header#site-header:after {
 }
 header#site-header a#logo {
   display: block;
-  width: 18%;
+  width: 18vw;
   float: left;
   position: relative;
   z-index: 5;
@@ -1565,13 +1565,8 @@ header#site-header nav#main-nav ul li.placeholder div {
   font-size: 28.8px;
   font-size: 1.6rem;
 }
-header#site-header nav#main-nav ul li.first {
-  /*span.color {
-    padding-left: 2%;
-  }*/
-}
 header#site-header nav#main-nav ul li.first a {
-  padding-left: 6em;
+  padding-left: 12vw;
 }
 header#site-header nav#main-nav ul li:hover span.color, header#site-header nav#main-nav ul li.active-trail span.color {
   -webkit-transform: translateY(0);
