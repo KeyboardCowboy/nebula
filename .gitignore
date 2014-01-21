@@ -1,2 +1,4 @@
-_scss/orion
-js/jquery.drawer
+*
+!_jade
+!_js
+!_scss
